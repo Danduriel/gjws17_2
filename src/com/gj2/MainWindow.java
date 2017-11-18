@@ -36,7 +36,7 @@ public class MainWindow {
 		gamePanel.add(new JLabel("Dynamit: "));
 		gamePanel.add(new JLabel("Bier: "));
 		gamePanel.add(new JLabel("Banen-Dollar: "));
-		gamePanel.add(new JLabel("Dynamit Effizienz: " + gamesim.player.dynamiteEfficiency));
+		gamePanel.add(new JLabel("Dynamit Effizienz: "));
       
       
 		gamePanel.setBorder(BorderFactory.createEmptyBorder(5, 5, 5, 5));
@@ -79,24 +79,4 @@ public class MainWindow {
       return comboPanel ;
    }
 
-   private static void createAndShowUI() {
-      MainWindow simplecardDemo = new MainWindow();
-
-      JFrame frame = new JFrame("Simple CardLayout Demo");
-      frame.getContentPane().add(simplecardDemo.getCardContainerPanel(), BorderLayout.CENTER);
-      frame.getContentPane().add(simplecardDemo.getComboPanel(), BorderLayout.PAGE_END);
-      frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-      frame.pack();
-      frame.setLocationRelativeTo(null);
-      frame.setVisible(true);
-   }
-
-   // to run Swing in a thread-safe way
-   public static void main(String[] args) {
-      java.awt.EventQueue.invokeLater(new Runnable() {
-         public void run() {
-            createAndShowUI();
-         }
-      });
-   }
 }
