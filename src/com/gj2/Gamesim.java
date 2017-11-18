@@ -19,6 +19,14 @@ public class Gamesim {
 	}
 	
 	public void update() {
+		//Sieg, Loss Abfrage
+		if (temple.progress >= temple.maxProgress) {
+			//Loss Funktion
+		}
+		else if (temple.zeal <= 0) {
+			//Win Funktion
+		}
+		
 		//erzeugt ein zufälliges Event
 		getRandomEvent();
 		
