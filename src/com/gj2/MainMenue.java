@@ -15,11 +15,7 @@ import javax.swing.JTextField;
 public class MainMenue extends JFrame implements ActionListener
 {
 	
-	// Derpi
-	
-	
     // Variablen
-    int [][] map = new int [10][10];
     String eingabex, eingabey;
     int eingabeX, eingabeY;
     int punkte;
@@ -79,6 +75,8 @@ public class MainMenue extends JFrame implements ActionListener
         bTipps=new JButton ("Tipp");
         ereignis.add(bTipps);
         bTipps.addActionListener(this);
+        
+        
         
         setVisible(true); // Sichtbar machen
     }
