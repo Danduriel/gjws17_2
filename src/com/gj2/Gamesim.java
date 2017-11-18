@@ -1,6 +1,5 @@
 package com.gj2;
 
-package com.badogic.drop;
 
 import java.util.concurrent.ThreadLocalRandom;
 
@@ -11,7 +10,7 @@ public class Gamesim {
 	public EventCreator eventCreator = new EventCreator();
 	public MyEvent tempEvent = new MyEvent("","",0,0,0,0,0,0,0);
 	public String description = "";
-	public MyAP tempAP = new MyAP("","",0,0,0,0,0,0,0);
+	public MyAction tempAP = new MyAction("","",0,0,0,0,0,0,0);
 	
 	
 	public Gamesim(int turn) {	
@@ -52,7 +51,7 @@ public class Gamesim {
 	public void setNextAction(String action) {
 		//ToDo Switch action
 		if (action == "beer") {
-			tempAP=APCreator.clickBeerButton();
+			tempAP=Action.clickBeerButton();
 		}
 		else if (action == "dynamite") {
 			tempAP=APCreator.clickDynamiteButton();
