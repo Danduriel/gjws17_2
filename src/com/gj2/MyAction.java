@@ -4,26 +4,26 @@ package com.gj2;
 public class MyAction {
 	// Variablen der Klasse
 	public String name,description = "";
-	public int dynamite,beer,zeal,money,progress,might,ap = 0;
+	public int ap,dynamite,beer,money,follower,zeal,progress = 0;
 	
 	//Konstruktor Events
-	public MyAction(String startName, String startDescripton, 
-					int startDynamite, int startBeer, int startMoney, int startMight, int startAP, 
-					int startZeal, int startProgress)
+	public MyAction(String name, String description, 
+					int ap, int dynamite, int beer, int money, int follower,  
+					int zeal, int progress)
 	{
 		//Event
-		this.name = startName;
-		this.description = startDescripton;
+		this.name = name;
+		this.description = description;
 		
 		//Player
-		this.dynamite = startDynamite;
-		this.beer = startBeer;
-		this.money = startMoney;
-		this.might = startMight;
-		this.ap = startAP;
+		this.dynamite = dynamite;
+		this.beer = beer;
+		this.money = money;
+		this.follower = follower;
+		this.ap = ap;
 		
 		//Temple
-		this.zeal = startZeal;
-		this.progress = startProgress;
+		this.zeal = zeal;
+		this.progress = progress;
 	}
 }
