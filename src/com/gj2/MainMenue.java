@@ -1,82 +1,68 @@
 package com.gj2;
 
 import java.awt.BorderLayout;
+import java.awt.Font;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
-import javax.swing.JTextArea;
-import javax.swing.JTextField;
 
 public class MainMenue extends JFrame implements ActionListener
 {
-	
-    // Variablen
-    String eingabex, eingabey;
-    int eingabeX, eingabeY;
-    int punkte;
-    int schatzX, schatzY;
-    int peterx, petery;
-    int peterX, peterY;  
     
     // Grafikelemente
-    private JPanel daten, ausgabe, ereignis;
-    private JLabel lPunkte;
-    private JTextField tPunkte;
-    private JTextArea taAusgabefeld;
-    private JButton bNeu, bFeld, bHilfe, bTipps;
+    private JPanel ereignis;
+    private JLabel titel;
+    private JButton bNew, bLoad, bSave, bCredits, bQuit;
      
      
     public MainMenue() {  //Konstruktor
-        super("Schatzsuche"); 
+        super("Everybody loves Bananabeer!"); 
         setLayout(new BorderLayout());
-        add(new JLabel("daten"), BorderLayout.NORTH);
-        add(new JLabel("ausgabe"), BorderLayout.CENTER);
-        add(new JLabel("ereignis"), BorderLayout. SOUTH);
+        add(new JLabel("ereignis"), BorderLayout. CENTER);
         setSize(1280,800);
         
-        daten= new JPanel();
-        ausgabe= new JPanel();
         ereignis= new JPanel();
-        getContentPane().add("North",daten);
-        getContentPane().add("Center",ausgabe);
-        getContentPane().add("South", ereignis);
-        daten.setLayout(new GridLayout (4,2));
-           
-        //North
-        lPunkte=new JLabel("Punkte:  ");
-        daten.add(lPunkte);        
-        tPunkte=new JTextField(10);
-        daten.add(tPunkte);
-
+        getContentPane().add("Center", ereignis);
+        ereignis.setLayout(new GridLayout (6,1));
+        
         //Center
-        taAusgabefeld=new JTextArea(15, 31);
-        taAusgabefeld.setLineWrap(true);
-        ausgabe.add(taAusgabefeld);
-
+        //Titel mittig anzeigen
+        titel = new JLabel("EVERYBODY LOVES BANANABEER!");
+        titel.setHorizontalAlignment(JLabel.CENTER);
+        titel.setFont(new Font("Arial", Font.BOLD, 50));
+        ereignis.add(titel);
         
-        //South
-        bNeu=new JButton("Neu");
-        ereignis.add(bNeu);
-        bNeu.addActionListener(this);
+        //Buttons
+        bNew=new JButton("Neues Spiel");
+        bNew.setFont(new Font("Arial", Font.BOLD, 35));
+        ereignis.add(bNew);
+        bNew.addActionListener(this);
         
-        bFeld=new JButton ("Feld anzeigen");
-        ereignis.add(bFeld);
-        bFeld.addActionListener(this);
+        bLoad=new JButton ("Spiel laden");
+        bLoad.setFont(new Font("Arial", Font.BOLD, 35));
+        ereignis.add(bLoad);
+        bLoad.addActionListener(this);
         
-        bHilfe=new JButton ("Hilfe");
-        ereignis.add(bHilfe);
-        bHilfe.addActionListener(this);
+        bSave=new JButton ("Spiel speichern");
+        bSave.setFont(new Font("Arial", Font.BOLD, 35));
+        ereignis.add(bSave);
+        bSave.addActionListener(this);
         
-        bTipps=new JButton ("Tipp");
-        ereignis.add(bTipps);
-        bTipps.addActionListener(this);
+        bCredits=new JButton ("Credits");
+        bCredits.setFont(new Font("Arial", Font.BOLD, 35));
+        ereignis.add(bCredits);
+        bCredits.addActionListener(this);
         
-        
+        bQuit=new JButton ("Beenden");
+        bQuit.setFont(new Font("Arial", Font.BOLD, 35));
+        ereignis.add(bQuit);
+        bQuit.addActionListener(this);
         
         setVisible(true); // Sichtbar machen
     }
