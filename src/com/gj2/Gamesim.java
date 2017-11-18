@@ -51,10 +51,10 @@ public class Gamesim {
 	public void setNextAction(String action) {
 		//ToDo Switch action
 		if (action == "beer") {
-			tempAP=Action.clickBeerButton();
+			//tempAP=Action.clickBeerButton();
 		}
 		else if (action == "dynamite") {
-			tempAP=APCreator.clickDynamiteButton();
+			//tempAP=APCreator.clickDynamiteButton();
 		}
 	}
 }
