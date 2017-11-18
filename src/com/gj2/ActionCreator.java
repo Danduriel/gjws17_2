@@ -1,21 +1,19 @@
 package com.gj2;
 
-import com.badogic.drop.MyAP;
-
-public class APCreator {
-	public APCreator() {
+public class ActionCreator {
+	public ActionCreator() {
 		//MyAP myAP = new MyAP("","",0,0,0,0,0,0,0);
 	}
 	
 	//Dummy ButtonFunktion
 	// Dynamite, Beer, Money, Might, Zeal, Progress, AP Kosten
-	public static MyAP clickBeerButton(){
-		MyAP tempAP = new MyAP("Party schmei�en","Versuche die eifrigen Affen zu verkatern",0,-5,-20,0,-10,-50,-50);
+	public static MyAction clickBeerButton(){
+		MyAction tempAP = new MyAction("Party schmeissen","Versuche die eifrigen Affen zu verkatern",0,-5,-20,0,-10,-50,-50);
 		return tempAP;
 	}
 	
-	public static MyAP clickDynamiteButton() {
-		MyAP tempAP = new MyAP("Sabotiere Baustelle","Sabotiere die Baustelle mit etwas Explosiven",-5,0,-50,0,-5,-50,-50);
+	public static MyAction clickDynamiteButton() {
+		MyAction tempAP = new MyAction("Sabotiere Baustelle","Sabotiere die Baustelle mit etwas Explosiven",-5,0,-50,0,-5,-50,-50);
 		return tempAP;
 	}
 }
