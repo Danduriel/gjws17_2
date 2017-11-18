@@ -6,15 +6,15 @@ public class MyEvent {
 	public int dynamite,beer,zeal,money,progress,might,ap = 0;
 	
 	//Konstruktor Events
-	public MyEvent(String startName, String startDescripton, 
+	public MyEvent(String name, String description, 
 					int dynamite, int beer, int money, int might, int ap, 
-					int startZeal, int startProgress)
+					int zeal, int progress)
 	{
 
 		
 		//Event
-		this.name = startName;
-		this.description = startDescripton;
+		this.name = name;
+		this.description = description;
 		
 		//Player
 		this.dynamite = dynamite;
@@ -24,8 +24,8 @@ public class MyEvent {
 		this.ap = ap;
 		
 		//Temple
-		this.zeal = startZeal;
-		this.progress = startProgress;
+		this.zeal = zeal;
+		this.progress = progress;
 	}
 	
 	
