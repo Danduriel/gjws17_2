@@ -10,8 +10,7 @@ public class MyEvent {
 					int dynamite, int beer, int money, int might, int ap, 
 					int zeal, int progress)
 	{
-
-		
+	
 		//Event
 		this.name = name;
 		this.description = description;

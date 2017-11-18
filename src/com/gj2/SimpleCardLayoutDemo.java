@@ -4,7 +4,7 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-public class Main {
+public class SimpleCardLayoutDemo {
    private CardLayout cardLayout = new CardLayout();
 
    // *** JPanel to hold the "cards" and to use the CardLayout:
@@ -12,7 +12,7 @@ public class Main {
    private JComboBox cardCombo = new JComboBox();
    private JPanel comboPanel = new JPanel();;
 
-   public Main() {
+   public SimpleCardLayoutDemo() {
       JPanel greenPanel = new JPanel(new BorderLayout());
       greenPanel.setBackground(Color.green);
       greenPanel.add(new JScrollPane(new JTextArea(10, 25)), BorderLayout.CENTER);
