@@ -29,14 +29,15 @@ public class MainWindow {
       //Game panel
 		JPanel gamePanel = new JPanel();
 		gamePanel.setBackground(Color.red);
-		gamePanel.add(new JButton("Foo"));
+		gamePanel.add(new JButton("Next Turn"));
 		gamePanel.add(new JButton("Foo2"));
-		gamePanel.add(new JLabel("Tempel Fortschritt: "));
-		gamePanel.add(new JLabel("Eifer: "));
-		gamePanel.add(new JLabel("Dynamit: "));
-		gamePanel.add(new JLabel("Bier: "));
-		gamePanel.add(new JLabel("Banen-Dollar: "));
-		gamePanel.add(new JLabel("Dynamit Effizienz: "));
+		gamePanel.add(new JLabel("Runde: "+ gamesim.turn));
+		gamePanel.add(new JLabel("Tempel Fortschritt: "+ gamesim.temple.progress));
+		gamePanel.add(new JLabel("Eifer: " + gamesim.temple.zeal));
+		gamePanel.add(new JLabel("Dynamit: " + gamesim.player.dynamite));
+		gamePanel.add(new JLabel("Bier: " + gamesim.player.beer));
+		gamePanel.add(new JLabel("Banen-Dollar: " + gamesim.player.money));
+		gamePanel.add(new JLabel("Follower: " + gamesim.player.follower));
       
       
 		gamePanel.setBorder(BorderFactory.createEmptyBorder(5, 5, 5, 5));
