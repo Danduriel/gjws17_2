@@ -26,7 +26,7 @@ public class MainWindow {
 		cardCombo.addItem(green);
 
       
-      //Game panel
+		//Game panel
 		JPanel gamePanel = new JPanel();
 		gamePanel.setBackground(Color.red);
 		gamePanel.add(new JButton("Next Turn"));
@@ -58,8 +58,8 @@ public class MainWindow {
 	    cardContainer.add(bluePanel, blue);
 	    cardCombo.addItem(blue);
 
-      comboPanel.add(cardCombo);
-      cardCombo.addActionListener(new ActionListener() {
+	    comboPanel.add(cardCombo);
+	    cardCombo.addActionListener(new ActionListener() {
 
          public void actionPerformed(ActionEvent e) {
             String item = cardCombo.getSelectedItem().toString();
