@@ -36,6 +36,7 @@ public class Player {
 		this.money += money;
 		this.follower += follower;
 		
+		/*
 		if(this.ap < 0)
 			this.ap = 0;
 		if(this.dynamite < 0)
@@ -46,7 +47,7 @@ public class Player {
 			this.money = 0;
 		if(this.follower < 0)
 			this.follower = 0;
-		
+		*/
 			
 	}
 }
