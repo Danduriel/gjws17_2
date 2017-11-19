@@ -90,6 +90,11 @@ public class EventCreator {
 		goodEvents.add(new MyEvent("Ladendiebstahl", // Event Name
 								"Deine Affengang hatte die Schnappsidee einen Schnappsladen auszurauben.", // Event description
 								0,0,11,15,0,0,0)); 		// AP Kosten,Dynamite, Beer, Money, Follower, Zeal, Progress 
+		
+		//Add good Events
+		goodEvents.add(new MyEvent("500K", // Event Name
+								"Es ist große Lachswanderung! Du findest Follower", // Event description
+								0,0,0,0,5,0,0)); 		// AP Kosten,Dynamite, Beer, Money, Follower, Zeal, Progress 
 
 		/////////////////////////////////////////////////////////////////////////////////////////////
 		
