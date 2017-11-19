@@ -14,6 +14,7 @@ import net.miginfocom.swing.*;
  */
 public class myGui extends JFrame {
 	Gamesim gamesim;
+	Dialog dialog;
 	
 	public myGui(Gamesim gamesim) {
 		this.gamesim = gamesim;
@@ -39,6 +40,25 @@ public class myGui extends JFrame {
 		radioButton5.setSelected(false);
 		radioButton6.setSelected(false);
 		radioButton7.setSelected(false);
+		
+		
+        javax.swing.SwingUtilities.invokeLater(new Runnable() {
+            public void run() {
+        		dialog = new Dialog();
+        		//Updates
+        		dialog.setTitle(gamesim.tempEvent.name);
+        		dialog.labelEventMessage.setText(gamesim.tempEvent.description);
+        		dialog.label1.setText(Integer.toString(gamesim.tempEvent.ap));
+        		dialog.label2.setText(Integer.toString(gamesim.tempEvent.dynamite));
+        		dialog.label3.setText(Integer.toString(gamesim.tempEvent.beer));
+        		dialog.label4.setText(Integer.toString(gamesim.tempEvent.money));
+        		dialog.label5.setText(Integer.toString(gamesim.tempEvent.follower));
+        		dialog.label6.setText(Double.toString(gamesim.tempEvent.zeal));
+        		dialog.label7.setText(Double.toString(gamesim.tempEvent.progress));
+        		
+        		dialog.setVisible(true);
+            }
+        });
 	}
 
 	private void initComponents() {
