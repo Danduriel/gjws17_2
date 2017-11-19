@@ -5,7 +5,7 @@ new FormModel {
 	root: new FormRoot {
 		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
 			"$layoutConstraints": "hidemode 3"
-			"$columnConstraints": "[fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill]"
+			"$columnConstraints": "[fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][81,fill][fill]"
 			"$rowConstraints": "[][][][][][][][][][][][][][][]"
 		} ) {
 			name: "this"
@@ -35,6 +35,7 @@ new FormModel {
 				name: "radioButton1"
 				"text": "Schmeiße eine Party"
 				"font": &Font2 new java.awt.Font( "Tahoma", 0, 20 )
+				"$buttonGroup": new FormReference( "buttonGroup1" )
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
 				"value": "cell 1 1"
 			} )
@@ -56,6 +57,7 @@ new FormModel {
 				name: "radioButton2"
 				"text": "Sprenge die Baustelle"
 				"font": #Font2
+				"$buttonGroup": &FormReference0 new FormReference( "buttonGroup1" )
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
 				"value": "cell 1 2"
 			} )
@@ -72,6 +74,14 @@ new FormModel {
 				"font": #Font1
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
 				"value": "cell 35 2"
+			} )
+			add( new FormComponent( "javax.swing.JRadioButton" ) {
+				name: "radioButton3"
+				"text": "Sprenge die Baustelle"
+				"font": #Font2
+				"$buttonGroup": #FormReference0
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 1 3"
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "labelBeer"
@@ -147,12 +157,18 @@ new FormModel {
 				name: "btNextTurn"
 				"text": "Next Turn"
 				"font": new java.awt.Font( "Tahoma", 0, 20 )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "btNextTurnMouseClicked", true ) )
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-				"value": "cell 34 12 1 2"
+				"value": "cell 35 12 1 2"
 			} )
 		}, new FormLayoutConstraints( null ) {
 			"location": new java.awt.Point( 0, 0 )
-			"size": new java.awt.Dimension( 1070, 490 )
+			"size": new java.awt.Dimension( 1095, 490 )
+		} )
+		add( new FormNonVisual( "javax.swing.ButtonGroup" ) {
+			name: "buttonGroup1"
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 500 )
 		} )
 	}
 }

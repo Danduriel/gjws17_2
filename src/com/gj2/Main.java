@@ -28,7 +28,7 @@ public class Main {
 	    
         javax.swing.SwingUtilities.invokeLater(new Runnable() {
             public void run() {
-                myGui GUI = new myGui();
+                myGui GUI = new myGui(gamesim);
                 GUI.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 GUI.setVisible(true);
             }
