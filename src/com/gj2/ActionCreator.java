@@ -37,6 +37,11 @@ public class ActionCreator {
 		return tempAP;
 	}
 	
+	public static MyAction clickDixiButton() {
+		MyAction tempAP = new MyAction("Dixis umschubsen","Das wird ein laaaanger Tag für alle Bauarbeiter-Affen. Und dieser Duft erst.",0,0,0,0,0,0,0);
+		return tempAP;
+	}
+	
 	
 }
 
