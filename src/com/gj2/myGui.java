@@ -176,7 +176,7 @@ public class myGui extends JFrame {
 		btNextTurn = new JButton();
 
 		//======== this ========
-		setTitle("MONKEY TEMPLE THINGYS");
+		setTitle("EVERYBODY LOVES BANANA BEER");
 		Container contentPane = getContentPane();
 		contentPane.setLayout(new MigLayout(
 			"hidemode 3",

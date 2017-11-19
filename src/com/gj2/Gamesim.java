@@ -43,6 +43,8 @@ public class Gamesim {
 		player.update(tempEvent.ap,tempEvent.dynamite, tempEvent.beer, tempEvent.money,tempEvent.follower);
 		temple.update(tempEvent.zeal, tempEvent.progress);
 		
+		temple.update(1.0, temple.zeal/10.0);
+		
 		
 		// Make sure there are no Values below 0 
 		

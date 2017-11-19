@@ -3,7 +3,7 @@ package com.gj2;
 public class ActionCreator {
 	// AP Kosten, Dynamite, Beer, Money, Follower, Zeal, Progress 
 	public static MyAction clickBeerButton(){
-		MyAction tempAP = new MyAction("Party schmeissen","Versuche die eifrigen Affen zu verkatern.",-1,0,-10,0,2,5.0,0.0);
+		MyAction tempAP = new MyAction("Party schmeissen","Versuche die eifrigen Affen zu verkatern.",-1,0,-10,0,2,-5.0,0.0);
 		return tempAP;
 	}
 	
