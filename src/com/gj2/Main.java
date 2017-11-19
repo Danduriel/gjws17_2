@@ -23,10 +23,9 @@ public class Main {
 
    // to run Swing in a thread-safe way
    public static void main(String[] args) {
-<<<<<<< HEAD
+
 	    new testGui(gamesim);  
-=======
-	    new testGui(gamesim);
+
 	    
         javax.swing.SwingUtilities.invokeLater(new Runnable() {
             public void run() {
@@ -36,7 +35,6 @@ public class Main {
             }
         });
 	    
->>>>>>> branch 'master' of https://github.com/Danduriel/gjws17_2.git
 	    
 	   
 /*
