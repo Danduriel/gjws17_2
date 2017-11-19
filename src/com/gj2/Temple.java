@@ -11,9 +11,9 @@ public class Temple {
 		this.progress = progress;
 	}
 	
-	public void update(int zeal, int progress) {
-		this.zeal += zeal;
-		this.progress += progress;
+	public void update(double zeal2, double progress2) {
+		this.zeal += zeal2;
+		this.progress += progress2;
 	}
 }
 
