@@ -9,6 +9,7 @@ public class Gamesim {
 	
 	public int turn;
 	public EventCreator eventCreator = new EventCreator();
+	public ActionCreator actionCreator = new ActionCreator();
 	public MyEvent tempEvent = new MyEvent("","",0,0,0,0,0,0,0);
 	//public String description = "";
 	public MyAction tempAP = new MyAction("","",0,0,0,0,0,0,0);
