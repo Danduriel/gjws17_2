@@ -1,0 +1,158 @@
+JFDML JFormDesigner: "6.0.2.0.116" Java: "1.8.0_91" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+			"$layoutConstraints": "hidemode 3"
+			"$columnConstraints": "[fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill]"
+			"$rowConstraints": "[][][][][][][][][][][][][][][]"
+		} ) {
+			name: "this"
+			"title": "MONKEY TEMPLE THINGYS"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labelNextAction"
+				"text": "Wähle die nächste Aktion:"
+				"font": new java.awt.Font( "Tahoma", 0, 20 )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 1 0"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labelTurn"
+				"text": "Turn:"
+				"font": &Font0 new java.awt.Font( "Tahoma", 0, 20 )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 34 0"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labelTurnValue"
+				"text": "0"
+				"font": &Font1 new java.awt.Font( "Tahoma", 0, 20 )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 35 0"
+			} )
+			add( new FormComponent( "javax.swing.JRadioButton" ) {
+				name: "radioButton1"
+				"text": "Schmeiße eine Party"
+				"font": &Font2 new java.awt.Font( "Tahoma", 0, 20 )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 1 1"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labelAP"
+				"text": "Aktionspunkte:"
+				"font": #Font0
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 34 1"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labelAPValue"
+				"text": "0"
+				"font": #Font1
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 35 1"
+			} )
+			add( new FormComponent( "javax.swing.JRadioButton" ) {
+				name: "radioButton2"
+				"text": "Sprenge die Baustelle"
+				"font": #Font2
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 1 2"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labelDynamite"
+				"text": "Dynamite:"
+				"font": &Font3 new java.awt.Font( "Tahoma", 0, 20 )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 34 2"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labelDynamiteValue"
+				"text": "0"
+				"font": #Font1
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 35 2"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labelBeer"
+				"text": "Bier:"
+				"font": #Font3
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 34 3"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labelBeerValue"
+				"text": "0"
+				"font": #Font1
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 35 3"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labelMoney"
+				"text": "Geld:"
+				"font": #Font3
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 34 4"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labelMoneyValue"
+				"text": "0"
+				"font": #Font3
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 35 4"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labelFollower"
+				"text": "Follower:"
+				"font": #Font3
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 34 5"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labelFollowerValue"
+				"text": "0"
+				"font": #Font3
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 35 5"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labelZeal"
+				"text": "Zeal:"
+				"font": #Font3
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 34 7"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labelZealValue"
+				"text": "0"
+				"font": #Font3
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 35 7"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labelProgress"
+				"text": "Progress:"
+				"font": #Font3
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 34 8"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labelProgressValue"
+				"text": "0"
+				"font": #Font3
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 35 8"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "btNextTurn"
+				"text": "Next Turn"
+				"font": new java.awt.Font( "Tahoma", 0, 20 )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 34 12 1 2"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 1070, 490 )
+		} )
+	}
+}

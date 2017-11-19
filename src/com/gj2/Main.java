@@ -23,8 +23,17 @@ public class Main {
 
    // to run Swing in a thread-safe way
    public static void main(String[] args) {
-	    //new testGui(gamesim);
-	   new Test();
+	    new testGui(gamesim);
+	    
+        javax.swing.SwingUtilities.invokeLater(new Runnable() {
+            public void run() {
+                myGui GUI = new myGui();
+                GUI.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+                GUI.setVisible(true);
+            }
+        });
+	    
+	    
 	   
 /*
       java.awt.EventQueue.invokeLater(new Runnable() {
