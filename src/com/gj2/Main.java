@@ -24,6 +24,7 @@ public class Main {
    // to run Swing in a thread-safe way
    public static void main(String[] args) {
 	    //new testGui(gamesim);
+
 	    
         javax.swing.SwingUtilities.invokeLater(new Runnable() {
             public void run() {
