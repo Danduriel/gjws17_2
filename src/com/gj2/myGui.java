@@ -301,43 +301,43 @@ public class myGui extends JFrame {
 		contentPane.add(radioButton1, "cell 1 1");
 
 		//---- label9 ----
-		label9.setText("0");
+		label9.setText("1");
 		label9.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		label9.setHorizontalAlignment(SwingConstants.CENTER);
 		contentPane.add(label9, "cell 5 1");
 
 		//---- label10 ----
-		label10.setText("0");
+		label10.setText(" 0");
 		label10.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		label10.setHorizontalAlignment(SwingConstants.CENTER);
 		contentPane.add(label10, "cell 6 1");
 
 		//---- label11 ----
-		label11.setText("0");
+		label11.setText("10");
 		label11.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		label11.setHorizontalAlignment(SwingConstants.CENTER);
 		contentPane.add(label11, "cell 7 1");
 
 		//---- label12 ----
-		label12.setText("0");
+		label12.setText(" 0");
 		label12.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		label12.setHorizontalAlignment(SwingConstants.CENTER);
 		contentPane.add(label12, "cell 8 1");
 
 		//---- label13 ----
-		label13.setText("0");
+		label13.setText(" 0");
 		label13.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		label13.setHorizontalAlignment(SwingConstants.CENTER);
 		contentPane.add(label13, "cell 9 1");
 
 		//---- label14 ----
-		label14.setText("0");
+		label14.setText(" 0");
 		label14.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		label14.setHorizontalAlignment(SwingConstants.CENTER);
 		contentPane.add(label14, "cell 10 1");
 
 		//---- label15 ----
-		label15.setText("0");
+		label15.setText(" 0");
 		label15.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		label15.setHorizontalAlignment(SwingConstants.CENTER);
 		contentPane.add(label15, "cell 11 1");
@@ -360,43 +360,43 @@ public class myGui extends JFrame {
 		contentPane.add(radioButton2, "cell 1 2");
 
 		//---- label16 ----
-		label16.setText("0");
+		label16.setText("2");
 		label16.setHorizontalAlignment(SwingConstants.CENTER);
 		label16.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(label16, "cell 5 2");
 
 		//---- label17 ----
-		label17.setText("0");
+		label17.setText(" 1");
 		label17.setHorizontalAlignment(SwingConstants.CENTER);
 		label17.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(label17, "cell 6 2");
 
 		//---- label18 ----
-		label18.setText("0");
+		label18.setText(" 0");
 		label18.setHorizontalAlignment(SwingConstants.CENTER);
 		label18.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(label18, "cell 7 2");
 
 		//---- label19 ----
-		label19.setText("0");
+		label19.setText(" 0");
 		label19.setHorizontalAlignment(SwingConstants.CENTER);
 		label19.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(label19, "cell 8 2");
 
 		//---- label20 ----
-		label20.setText("0");
+		label20.setText(" 0");
 		label20.setHorizontalAlignment(SwingConstants.CENTER);
 		label20.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(label20, "cell 9 2");
 
 		//---- label21 ----
-		label21.setText("0");
+		label21.setText(" 0");
 		label21.setHorizontalAlignment(SwingConstants.CENTER);
 		label21.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(label21, "cell 10 2");
 
 		//---- label22 ----
-		label22.setText("0");
+		label22.setText(" 0");
 		label22.setHorizontalAlignment(SwingConstants.CENTER);
 		label22.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(label22, "cell 11 2");
@@ -419,43 +419,43 @@ public class myGui extends JFrame {
 		contentPane.add(radioButton3, "cell 1 3");
 
 		//---- label23 ----
-		label23.setText("0");
+		label23.setText("1");
 		label23.setHorizontalAlignment(SwingConstants.CENTER);
 		label23.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(label23, "cell 5 3");
 
 		//---- label24 ----
-		label24.setText("0");
+		label24.setText(" 0");
 		label24.setHorizontalAlignment(SwingConstants.CENTER);
 		label24.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(label24, "cell 6 3");
 
 		//---- label25 ----
-		label25.setText("0");
+		label25.setText(" 0");
 		label25.setHorizontalAlignment(SwingConstants.CENTER);
 		label25.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(label25, "cell 7 3");
 
 		//---- label26 ----
-		label26.setText("0");
+		label26.setText(" 5");
 		label26.setHorizontalAlignment(SwingConstants.CENTER);
 		label26.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(label26, "cell 8 3");
 
 		//---- label27 ----
-		label27.setText("0");
+		label27.setText(" 0");
 		label27.setHorizontalAlignment(SwingConstants.CENTER);
 		label27.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(label27, "cell 9 3");
 
 		//---- label28 ----
-		label28.setText("0");
+		label28.setText(" 0");
 		label28.setHorizontalAlignment(SwingConstants.CENTER);
 		label28.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(label28, "cell 10 3");
 
 		//---- label29 ----
-		label29.setText("0");
+		label29.setText(" 0");
 		label29.setHorizontalAlignment(SwingConstants.CENTER);
 		label29.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(label29, "cell 11 3");
@@ -478,43 +478,43 @@ public class myGui extends JFrame {
 		contentPane.add(radioButton4, "cell 1 4");
 
 		//---- label30 ----
-		label30.setText("0");
+		label30.setText("5");
 		label30.setHorizontalAlignment(SwingConstants.CENTER);
 		label30.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(label30, "cell 5 4");
 
 		//---- label31 ----
-		label31.setText("0");
+		label31.setText(" 0");
 		label31.setHorizontalAlignment(SwingConstants.CENTER);
 		label31.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(label31, "cell 6 4");
 
 		//---- label32 ----
-		label32.setText("0");
+		label32.setText(" 1");
 		label32.setHorizontalAlignment(SwingConstants.CENTER);
 		label32.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(label32, "cell 7 4");
 
 		//---- label33 ----
-		label33.setText("0");
+		label33.setText(" 0");
 		label33.setHorizontalAlignment(SwingConstants.CENTER);
 		label33.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(label33, "cell 8 4");
 
 		//---- label34 ----
-		label34.setText("0");
+		label34.setText(" 0");
 		label34.setHorizontalAlignment(SwingConstants.CENTER);
 		label34.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(label34, "cell 9 4");
 
 		//---- label35 ----
-		label35.setText("0");
+		label35.setText(" 0");
 		label35.setHorizontalAlignment(SwingConstants.CENTER);
 		label35.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(label35, "cell 10 4");
 
 		//---- label36 ----
-		label36.setText("0");
+		label36.setText(" 0");
 		label36.setHorizontalAlignment(SwingConstants.CENTER);
 		label36.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(label36, "cell 11 4");
@@ -537,43 +537,43 @@ public class myGui extends JFrame {
 		contentPane.add(radioButton5, "cell 1 5");
 
 		//---- label37 ----
-		label37.setText("0");
+		label37.setText("3");
 		label37.setHorizontalAlignment(SwingConstants.CENTER);
 		label37.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(label37, "cell 5 5");
 
 		//---- label38 ----
-		label38.setText("0");
+		label38.setText(" 0");
 		label38.setHorizontalAlignment(SwingConstants.CENTER);
 		label38.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(label38, "cell 6 5");
 
 		//---- label39 ----
-		label39.setText("0");
+		label39.setText(" 0");
 		label39.setHorizontalAlignment(SwingConstants.CENTER);
 		label39.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(label39, "cell 7 5");
 
 		//---- label40 ----
-		label40.setText("0");
+		label40.setText(" 0");
 		label40.setHorizontalAlignment(SwingConstants.CENTER);
 		label40.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(label40, "cell 8 5");
 
 		//---- label41 ----
-		label41.setText("0");
+		label41.setText(" 0");
 		label41.setHorizontalAlignment(SwingConstants.CENTER);
 		label41.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(label41, "cell 9 5");
 
 		//---- label42 ----
-		label42.setText("0");
+		label42.setText(" 0");
 		label42.setHorizontalAlignment(SwingConstants.CENTER);
 		label42.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(label42, "cell 10 5");
 
 		//---- label43 ----
-		label43.setText("0");
+		label43.setText(" 0");
 		label43.setHorizontalAlignment(SwingConstants.CENTER);
 		label43.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(label43, "cell 11 5");
@@ -596,43 +596,43 @@ public class myGui extends JFrame {
 		contentPane.add(radioButton6, "cell 1 6");
 
 		//---- label44 ----
-		label44.setText("0");
+		label44.setText("1");
 		label44.setHorizontalAlignment(SwingConstants.CENTER);
 		label44.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(label44, "cell 5 6");
 
 		//---- label45 ----
-		label45.setText("0");
+		label45.setText(" 0");
 		label45.setHorizontalAlignment(SwingConstants.CENTER);
 		label45.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(label45, "cell 6 6");
 
 		//---- label46 ----
-		label46.setText("0");
+		label46.setText(" 1");
 		label46.setHorizontalAlignment(SwingConstants.CENTER);
 		label46.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(label46, "cell 7 6");
 
 		//---- label47 ----
-		label47.setText("0");
+		label47.setText("15");
 		label47.setHorizontalAlignment(SwingConstants.CENTER);
 		label47.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(label47, "cell 8 6");
 
 		//---- label48 ----
-		label48.setText("0");
+		label48.setText(" 0");
 		label48.setHorizontalAlignment(SwingConstants.CENTER);
 		label48.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(label48, "cell 9 6");
 
 		//---- label49 ----
-		label49.setText("0");
+		label49.setText(" 0");
 		label49.setHorizontalAlignment(SwingConstants.CENTER);
 		label49.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(label49, "cell 10 6");
 
 		//---- label50 ----
-		label50.setText("0");
+		label50.setText(" 0");
 		label50.setHorizontalAlignment(SwingConstants.CENTER);
 		label50.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(label50, "cell 11 6");
@@ -644,43 +644,43 @@ public class myGui extends JFrame {
 		contentPane.add(radioButton7, "cell 1 7");
 
 		//---- label51 ----
-		label51.setText("0");
+		label51.setText("10");
 		label51.setHorizontalAlignment(SwingConstants.CENTER);
 		label51.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(label51, "cell 5 7");
 
 		//---- label52 ----
-		label52.setText("0");
+		label52.setText(" 0");
 		label52.setHorizontalAlignment(SwingConstants.CENTER);
 		label52.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(label52, "cell 6 7");
 
 		//---- label53 ----
-		label53.setText("0");
+		label53.setText(" 0");
 		label53.setHorizontalAlignment(SwingConstants.CENTER);
 		label53.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(label53, "cell 7 7");
 
 		//---- label54 ----
-		label54.setText("0");
+		label54.setText(" 0");
 		label54.setHorizontalAlignment(SwingConstants.CENTER);
 		label54.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(label54, "cell 8 7");
 
 		//---- label55 ----
-		label55.setText("0");
+		label55.setText(" 0");
 		label55.setHorizontalAlignment(SwingConstants.CENTER);
 		label55.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(label55, "cell 9 7");
 
 		//---- label56 ----
-		label56.setText("0");
+		label56.setText(" 0");
 		label56.setHorizontalAlignment(SwingConstants.CENTER);
 		label56.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(label56, "cell 10 7");
 
 		//---- label57 ----
-		label57.setText("0");
+		label57.setText(" 0");
 		label57.setHorizontalAlignment(SwingConstants.CENTER);
 		label57.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(label57, "cell 11 7");
