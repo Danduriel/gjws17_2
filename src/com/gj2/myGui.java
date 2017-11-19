@@ -23,7 +23,7 @@ public class myGui extends JFrame {
 	private void btNextTurnMouseClicked(MouseEvent e) {
 		// TODO add your code here
 		gamesim.update();
-		
+
 		//Label Update
 		labelTurnValue.setText(Integer.toString(gamesim.turn));
 		labelAPValue.setText(Integer.toString(gamesim.player.ap));

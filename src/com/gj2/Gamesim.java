@@ -5,13 +5,13 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class Gamesim {
 	public Player player = new Player("Bob","male","monkey");
-	public Temple temple = new Temple(400,5000,0);
+	public Temple temple = new Temple(100.0,100.0,0.0);
 	
 	public int turn;
 	public EventCreator eventCreator = new EventCreator();
 	public ActionCreator actionCreator = new ActionCreator();
+	
 	public MyEvent tempEvent = new MyEvent("","",0,0,0,0,0,0,0);
-	//public String description = "";
 	public MyAction tempAP = new MyAction("","",0,0,0,0,0,0,0);
 	
 	

@@ -1,11 +1,11 @@
 package com.gj2;
 
 public class Temple {
-	public int zeal;
-	public int maxProgress;
-	public int progress;
+	public double zeal;
+	public double maxProgress;
+	public double progress;
 	
-	public Temple (int zeal, int maxProgress, int progress) {
+	public Temple (double zeal, double maxProgress, double progress) {
 		this.zeal = zeal;
 		this.maxProgress = maxProgress;
 		this.progress = progress;
