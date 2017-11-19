@@ -344,7 +344,7 @@ public class myGui extends JFrame {
 		//---- labelAP ----
 		labelAP.setText("Aktionspunkte:");
 		labelAP.setFont(new Font("Tahoma", Font.PLAIN, 20));
-		labelAP.setIcon(new ImageIcon("C:\\Users\\Xen\\git\\gjws17_2\\assets\\icons\\kacka_icon.png"));
+		labelAP.setIcon(new ImageIcon("assets/icons/kacka_icon.png"));
 		contentPane.add(labelAP, "cell 41 1");
 
 		//---- labelAPValue ----
@@ -403,7 +403,7 @@ public class myGui extends JFrame {
 		//---- labelDynamite ----
 		labelDynamite.setText("Dynamite:");
 		labelDynamite.setFont(new Font("Tahoma", Font.PLAIN, 20));
-		labelDynamite.setIcon(new ImageIcon("C:\\Users\\Xen\\git\\gjws17_2\\assets\\icons\\dynamit_icon.png"));
+		labelDynamite.setIcon(new ImageIcon("assets/icons/dynamit_icon.png"));
 		contentPane.add(labelDynamite, "cell 41 2");
 
 		//---- labelDynamiteValue ----
@@ -462,7 +462,7 @@ public class myGui extends JFrame {
 		//---- labelBeer ----
 		labelBeer.setText("Bier:");
 		labelBeer.setFont(new Font("Tahoma", Font.PLAIN, 20));
-		labelBeer.setIcon(new ImageIcon("C:\\Users\\Xen\\git\\gjws17_2\\assets\\icons\\flasche_icon.png"));
+		labelBeer.setIcon(new ImageIcon("assets/icons/flasche_icon.png"));
 		contentPane.add(labelBeer, "cell 41 3");
 
 		//---- labelBeerValue ----
@@ -521,7 +521,7 @@ public class myGui extends JFrame {
 		//---- labelMoney ----
 		labelMoney.setText("Geld:");
 		labelMoney.setFont(new Font("Tahoma", Font.PLAIN, 20));
-		labelMoney.setIcon(new ImageIcon("C:\\Users\\Xen\\git\\gjws17_2\\assets\\icons\\geld_icon.png"));
+		labelMoney.setIcon(new ImageIcon("assets/icons/geld_icon.png"));
 		contentPane.add(labelMoney, "cell 41 4");
 
 		//---- labelMoneyValue ----
@@ -580,7 +580,7 @@ public class myGui extends JFrame {
 		//---- labelFollower ----
 		labelFollower.setText("Follower:");
 		labelFollower.setFont(new Font("Tahoma", Font.PLAIN, 20));
-		labelFollower.setIcon(new ImageIcon("C:\\Users\\Xen\\git\\gjws17_2\\assets\\icons\\affe_icon.png"));
+		labelFollower.setIcon(new ImageIcon("assets/icons/affe_icon.png"));
 		contentPane.add(labelFollower, "cell 41 5");
 
 		//---- labelFollowerValue ----
@@ -687,7 +687,7 @@ public class myGui extends JFrame {
 		//---- labelZeal ----
 		labelZeal.setText("Zeal:");
 		labelZeal.setFont(new Font("Tahoma", Font.PLAIN, 20));
-		labelZeal.setIcon(new ImageIcon("C:\\Users\\Xen\\git\\gjws17_2\\assets\\icons\\zeal_icon.png"));
+		labelZeal.setIcon(new ImageIcon("assets/icons/zeal_icon.png"));
 		contentPane.add(labelZeal, "cell 41 9");
 
 		//---- labelZealValue ----
@@ -698,7 +698,7 @@ public class myGui extends JFrame {
 		//---- labelProgress ----
 		labelProgress.setText("Progress:");
 		labelProgress.setFont(new Font("Tahoma", Font.PLAIN, 20));
-		labelProgress.setIcon(new ImageIcon("C:\\Users\\Xen\\git\\gjws17_2\\assets\\icons\\bagger_icon.png"));
+		labelProgress.setIcon(new ImageIcon("assets/icons/bagger_icon.png"));
 		contentPane.add(labelProgress, "cell 41 10");
 
 		//---- labelProgressValue ----
