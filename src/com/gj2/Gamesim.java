@@ -36,7 +36,7 @@ public class Gamesim {
 		
 		
 		//AP Player / Temple update 
-		player.update(tempAP.dynamite, tempAP.beer, tempAP.money, tempAP.follower, tempAP.ap);
+		player.update(tempAP.ap,tempAP.dynamite, tempAP.beer, tempAP.money, tempAP.follower);
 		temple.update(tempAP.zeal, tempAP.progress);
 		
 		//Event Player / Temple update
