@@ -5,6 +5,7 @@
 package com.gj2;
 
 import java.awt.*;
+import java.awt.event.*;
 import javax.swing.*;
 import net.miginfocom.swing.*;
 
@@ -12,8 +13,27 @@ import net.miginfocom.swing.*;
  * @author Bob Monkey
  */
 public class myGui extends JFrame {
-	public myGui() {
+	Gamesim gamesim;
+	
+	public myGui(Gamesim gamesim) {
+		this.gamesim = gamesim;
 		initComponents();
+	}
+
+	private void btNextTurnMouseClicked(MouseEvent e) {
+		// TODO add your code here
+		gamesim.update();
+		
+		//Label Update
+		labelTurnValue.setText(Integer.toString(gamesim.turn));
+		labelAPValue.setText(Integer.toString(gamesim.player.ap));
+		labelDynamiteValue.setText(Integer.toString(gamesim.player.dynamite));
+		labelBeerValue.setText(Integer.toString(gamesim.player.beer));
+		labelMoneyValue.setText(Integer.toString(gamesim.player.money));
+		labelFollowerValue.setText(Integer.toString(gamesim.player.follower));
+		
+		radioButton1.setSelected(false);
+		radioButton2.setSelected(false);
 	}
 
 	private void initComponents() {
@@ -28,6 +48,7 @@ public class myGui extends JFrame {
 		radioButton2 = new JRadioButton();
 		labelDynamite = new JLabel();
 		labelDynamiteValue = new JLabel();
+		radioButton3 = new JRadioButton();
 		labelBeer = new JLabel();
 		labelBeerValue = new JLabel();
 		labelMoney = new JLabel();
@@ -81,6 +102,7 @@ public class myGui extends JFrame {
 			"[fill]" +
 			"[fill]" +
 			"[fill]" +
+			"[81,fill]" +
 			"[fill]",
 			// rows
 			"[]" +
@@ -144,6 +166,11 @@ public class myGui extends JFrame {
 		labelDynamiteValue.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(labelDynamiteValue, "cell 35 2");
 
+		//---- radioButton3 ----
+		radioButton3.setText("Sprenge die Baustelle");
+		radioButton3.setFont(new Font("Tahoma", Font.PLAIN, 20));
+		contentPane.add(radioButton3, "cell 1 3");
+
 		//---- labelBeer ----
 		labelBeer.setText("Bier:");
 		labelBeer.setFont(new Font("Tahoma", Font.PLAIN, 20));
@@ -197,9 +224,21 @@ public class myGui extends JFrame {
 		//---- btNextTurn ----
 		btNextTurn.setText("Next Turn");
 		btNextTurn.setFont(new Font("Tahoma", Font.PLAIN, 20));
-		contentPane.add(btNextTurn, "cell 34 12 1 2");
+		btNextTurn.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseClicked(MouseEvent e) {
+				btNextTurnMouseClicked(e);
+			}
+		});
+		contentPane.add(btNextTurn, "cell 35 12 1 2");
 		pack();
 		setLocationRelativeTo(getOwner());
+
+		//---- buttonGroup1 ----
+		ButtonGroup buttonGroup1 = new ButtonGroup();
+		buttonGroup1.add(radioButton1);
+		buttonGroup1.add(radioButton2);
+		buttonGroup1.add(radioButton3);
 		// JFormDesigner - End of component initialization  //GEN-END:initComponents
 	}
 
@@ -214,6 +253,7 @@ public class myGui extends JFrame {
 	private JRadioButton radioButton2;
 	private JLabel labelDynamite;
 	private JLabel labelDynamiteValue;
+	private JRadioButton radioButton3;
 	private JLabel labelBeer;
 	private JLabel labelBeerValue;
 	private JLabel labelMoney;

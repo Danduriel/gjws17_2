@@ -41,13 +41,6 @@ public class Gamesim {
 		//Event Player / Temple update
 		player.update(tempEvent.ap,tempEvent.dynamite, tempEvent.beer, tempEvent.money,tempEvent.follower);
 		temple.update(tempEvent.zeal, tempEvent.progress);
-		
-		//Debug Code
-		System.out.println("Update");
-		System.out.println("Runde: " + turn);
-		//System.out.println(description);
-		System.out.print("AP: "+player.ap+"\nDynamite: "+player.dynamite+ "\nBeer: "+player.beer+ "\nMoney: "+player.money+ "\nFollower: "+ player.follower);
-		System.out.print("Zeal: "+temple.zeal+"\nProgress: "+temple.progress);
 		turn++;
 	}
 	
