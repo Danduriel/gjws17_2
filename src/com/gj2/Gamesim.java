@@ -32,7 +32,7 @@ public class Gamesim {
 		getRandomEvent();
 		
 		
-		//description = tempEvent.description;
+		// SHOW DIALOG
 		
 		
 		//AP Player / Temple update 
