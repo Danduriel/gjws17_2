@@ -8,16 +8,13 @@ public class EventCreator {
 	static ArrayList <MyEvent> goodEvents = new ArrayList<MyEvent>(); 
 	static ArrayList <MyEvent> badEvents = new ArrayList<MyEvent>();
 	
-	public EventCreator() {
-		neutralEvents.add(new MyEvent("test neutral", // Event Name
-				"test description neutral", // Event description
-				0,0,0,0,0,0,0)); 		// AP Kosten,Dynamite, Beer, Money, Follower, Zeal, Progress 
-		
+	public EventCreator() {		
 		neutralEvents.add(new MyEvent("Nuescht ist passiert", // Event Name
 				"Einfach nichts passiert. Total langweilig. Nichtmal ein Tatort kommt im Fernsehen. Laaaaangweilig!", // Event description
 				0,0,0,0,0,0,0)); 		// AP Kosten,Dynamite, Beer, Money, Follower, Zeal, Progress 
 
 
+		
 		//Add good Events
 		goodEvents.add(new MyEvent("test good", // Event Name
 						"test description good", // Event description
@@ -93,10 +90,8 @@ public class EventCreator {
 		goodEvents.add(new MyEvent("Ladendiebstahl", // Event Name
 								"Deine Affengang hatte die Schnappsidee einen Schnappsladen auszurauben.", // Event description
 								0,0,11,15,0,0,0)); 		// AP Kosten,Dynamite, Beer, Money, Follower, Zeal, Progress 
-		//Add bad Events
-		badEvents.add(new MyEvent("test bad", // Event Name
-					"test description bad", // Event description
-					0,0,0,0,0,0,0)); 		// AP Kosten,Dynamite, Beer, Money, Follower, Zeal, Progress 
+
+		/////////////////////////////////////////////////////////////////////////////////////////////
 		
 		//Add bad Events
 		badEvents.add(new MyEvent("Make it rain!", // Event Name !!- Nur wenn die Follower funktion implementiert wird!!
