@@ -66,7 +66,7 @@ public class MainWindow {
 		c.gridy = 4;
 		gamePanel.add(new JLabel("Bier: " + gamesim.player.beer),c);
 		c.gridy = 5;
-		gamePanel.add(new JLabel("Banen-Dollar: " + gamesim.player.money),c);
+		gamePanel.add(new JLabel("Bananen-Dollar: " + gamesim.player.money),c);
 		c.gridy = 6;
 		gamePanel.add(new JLabel("Follower: " + gamesim.player.follower),c);   
       
