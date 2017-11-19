@@ -256,15 +256,17 @@ public class myGui extends JFrame {
 		contentPane.add(label1, "cell 3 0");
 
 		//---- label2 ----
-		label2.setIcon(new ImageIcon("C:\\Users\\Xen\\git\\gjws17_2\\assets\\icons\\kacka_icon.png"));
+		//Test Alex new ImageIcon(getClass().getResource("images\button.png"
+
+		label2.setIcon(new ImageIcon("assets/icons/kacka_icon.png"));
 		contentPane.add(label2, "cell 5 0");
 
 		//---- label3 ----
-		label3.setIcon(new ImageIcon("C:\\Users\\Xen\\git\\gjws17_2\\assets\\icons\\dynamit_icon.png"));
+		label3.setIcon(new ImageIcon("assets/icons/dynamit_icon.png"));
 		contentPane.add(label3, "cell 6 0");
 
 		//---- label4 ----
-		label4.setIcon(new ImageIcon("C:\\Users\\Xen\\git\\gjws17_2\\assets\\icons\\flasche_icon.png"));
+		label4.setIcon(new ImageIcon("assets\\icons\\flasche_icon.png"));
 		contentPane.add(label4, "cell 7 0");
 
 		//---- label5 ----
