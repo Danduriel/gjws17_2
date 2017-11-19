@@ -153,17 +153,12 @@ public class EventCreator {
 		badEvents.add(new MyEvent("Scherben bringen Glueck, right?", // Event Name
 							"Einige Flaschen sind kaputt gegangen", // Event description
 							0,0,-3,0,0,0,0)); 		// AP Kosten,Dynamite, Beer, Money, Follower, Zeal, Progress 
-		//Add bad Events
-		badEvents.add(new MyEvent("test bad", // Event Name
-									"test description bad", // Event description
-									0,0,0,0,0,0,0)); 		// AP Kosten,Dynamite, Beer, Money, Follower, Zeal, Progress 
+		
 		//Add bad Events
 		badEvents.add(new MyEvent("Feiertag", // Event Name
 							"Die Zealots hatten einen Feiertag und waren besonders produktiv", // Event description
-							0,0,0,0,0,0,+200)); 		// AP Kosten,Dynamite, Beer, Money, Follower, Zeal, Progress 
-							/*
-							 * 					
-							 */
+							0,0,0,0,-1,5.0,10.0)); 		// AP Kosten,Dynamite, Beer, Money, Follower, Zeal, Progress 
+
 	}
 	
 	// arrayID 0 = neutral, 1 = good, 2 = bad
