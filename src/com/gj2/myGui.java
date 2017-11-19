@@ -23,6 +23,29 @@ public class myGui extends JFrame {
 
 	private void btNextTurnMouseClicked(MouseEvent e) {
 		// TODO add your code here
+		if (radioButton1.isSelected()) {
+			gamesim.tempAP = ActionCreator.clickBeerButton();
+		}
+		else if (radioButton2.isSelected()) {
+			gamesim.tempAP = ActionCreator.clickDynamiteButton();
+		}
+		else if (radioButton3.isSelected()) {
+			gamesim.tempAP = ActionCreator.clickBunButton();
+		}
+		else if (radioButton4.isSelected()) {
+			gamesim.tempAP = ActionCreator.clickPommesButton();
+		}
+		else if (radioButton5.isSelected()) {
+			gamesim.tempAP = ActionCreator.clickShoesButton();
+		}
+		else if (radioButton6.isSelected()) {
+			gamesim.tempAP = ActionCreator.clickBusButton();
+		}
+		else if (radioButton7.isSelected()) {
+			gamesim.tempAP = ActionCreator.clickDixiButton();
+		}
+		
+		
 		gamesim.update();
 
 		//Label Update
@@ -32,6 +55,11 @@ public class myGui extends JFrame {
 		labelBeerValue.setText(Integer.toString(gamesim.player.beer));
 		labelMoneyValue.setText(Integer.toString(gamesim.player.money));
 		labelFollowerValue.setText(Integer.toString(gamesim.player.follower));
+		
+
+		
+		
+		
 		
 		radioButton1.setSelected(false);
 		radioButton2.setSelected(false);
