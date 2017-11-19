@@ -4,6 +4,7 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
+
 public class MainWindow {
 	
 	
@@ -25,32 +26,70 @@ public class MainWindow {
 		String green = "Green Panel";cardContainer.add(greenPanel, green);
 		cardCombo.addItem(green);
 
-      
+		
+
+		
+		
 		//Game panel
-		JPanel gamePanel = new JPanel();
+		JPanel gamePanel = new JPanel(new GridBagLayout());
+		GridBagConstraints c = new GridBagConstraints();
 		gamePanel.setBackground(Color.red);
-		gamePanel.add(new JButton("Next Turn"));
-		gamePanel.add(new JButton("Foo2"));
+
+		JButton button;
+		JLabel label;
+		button = new JButton("Button 1");
+		label = new JLabel("Derp");
+		
+		c.fill = GridBagConstraints.HORIZONTAL;
+		c.gridx = 0;
+		c.gridy = 0;
+		gamePanel.add(button, c);
+		
+		button = new JButton("Button 2");
+		c.fill = GridBagConstraints.HORIZONTAL;
+		c.weightx = 0.5;
+		c.gridx = 0;
+		c.gridy = 0;
+		gamePanel.add(button, c);
+		
+		
+		c.gridx = 1;
+		c.gridy = 0;	
 		gamePanel.add(new JLabel("Runde: "+ gamesim.turn));
-		gamePanel.add(new JLabel("Tempel Fortschritt: "+ gamesim.temple.progress));
-		gamePanel.add(new JLabel("Eifer: " + gamesim.temple.zeal));
-		gamePanel.add(new JLabel("Dynamit: " + gamesim.player.dynamite));
-		gamePanel.add(new JLabel("Bier: " + gamesim.player.beer));
-		gamePanel.add(new JLabel("Banen-Dollar: " + gamesim.player.money));
-		gamePanel.add(new JLabel("Follower: " + gamesim.player.follower));
+		c.gridx = 1;
+		c.gridy = 1;		
+		gamePanel.add(new JLabel("Tempel Fortschritt: "+ gamesim.temple.progress),c);
+		c.gridy = 2;
+		gamePanel.add(new JLabel("Eifer: " + gamesim.temple.zeal),c);
+		c.gridy = 3;
+		gamePanel.add(new JLabel("Dynamit: " + gamesim.player.dynamite),c);
+		c.gridy = 4;
+		gamePanel.add(new JLabel("Bier: " + gamesim.player.beer),c);
+		c.gridy = 5;
+		gamePanel.add(new JLabel("Banen-Dollar: " + gamesim.player.money),c);
+		c.gridy = 6;
+		gamePanel.add(new JLabel("Follower: " + gamesim.player.follower),c);   
       
-      
-		gamePanel.setBorder(BorderFactory.createEmptyBorder(5, 5, 5, 5));
+		button = new JButton("Next Turn");
+		c.fill = GridBagConstraints.HORIZONTAL;
+		c.weightx = 0.5;
+		c.gridx = 1;
+		c.gridy = 7;
+		gamePanel.add(button, c);
+		
+		
+		//gamePanel.setBorder(BorderFactory.createEmptyBorder(5, 5, 5, 5));
 	    String red = "Game Panel";
 	    cardContainer.add(gamePanel, red);
 	    cardCombo.addItem(red);
-
+	    
       
 	    // SHOP Panel
       
 	    JPanel bluePanel = new JPanel();
 	    bluePanel.setBackground(Color.blue);
-	    JLabel label = new JLabel("Blue Panel", SwingConstants.CENTER);
+	    
+	    label = new JLabel("Blue Panel", SwingConstants.CENTER);
 	    label.setForeground(Color.white);
 	    label.setFont(label.getFont().deriveFont(Font.BOLD, 32f));
 	    bluePanel.add(label);
