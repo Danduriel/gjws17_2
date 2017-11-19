@@ -266,23 +266,23 @@ public class myGui extends JFrame {
 		contentPane.add(label3, "cell 6 0");
 
 		//---- label4 ----
-		label4.setIcon(new ImageIcon("assets\\icons\\flasche_icon.png"));
+		label4.setIcon(new ImageIcon("assets/icons/flasche_icon.png"));
 		contentPane.add(label4, "cell 7 0");
 
 		//---- label5 ----
-		label5.setIcon(new ImageIcon("C:\\Users\\Xen\\git\\gjws17_2\\assets\\icons\\geld_icon.png"));
+		label5.setIcon(new ImageIcon("assets/icons/geld_icon.png"));
 		contentPane.add(label5, "cell 8 0");
 
 		//---- label6 ----
-		label6.setIcon(new ImageIcon("C:\\Users\\Xen\\git\\gjws17_2\\assets\\icons\\affe_icon.png"));
+		label6.setIcon(new ImageIcon("assets/icons/affe_icon.png"));
 		contentPane.add(label6, "cell 9 0");
 
 		//---- label7 ----
-		label7.setIcon(new ImageIcon("C:\\Users\\Xen\\git\\gjws17_2\\assets\\icons\\zeal_icon.png"));
+		label7.setIcon(new ImageIcon("assets/icons/zeal_icon.png"));
 		contentPane.add(label7, "cell 10 0");
 
 		//---- label8 ----
-		label8.setIcon(new ImageIcon("C:\\Users\\Xen\\git\\gjws17_2\\assets\\icons\\bagger_icon.png"));
+		label8.setIcon(new ImageIcon("assets/icons/bagger_icon.png"));
 		contentPane.add(label8, "cell 11 0");
 
 		//---- labelTurn ----
