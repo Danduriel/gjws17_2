@@ -45,25 +45,82 @@ public class myGui extends JFrame {
 		// JFormDesigner - Component initialization - DO NOT MODIFY  //GEN-BEGIN:initComponents
 		// Generated using JFormDesigner Evaluation license - Bob Monkey
 		labelNextAction = new JLabel();
+		label1 = new JLabel();
+		label2 = new JLabel();
+		label3 = new JLabel();
+		label4 = new JLabel();
+		label5 = new JLabel();
+		label6 = new JLabel();
+		label7 = new JLabel();
+		label8 = new JLabel();
 		labelTurn = new JLabel();
 		labelTurnValue = new JLabel();
 		radioButton1 = new JRadioButton();
+		label9 = new JLabel();
+		label10 = new JLabel();
+		label11 = new JLabel();
+		label12 = new JLabel();
+		label13 = new JLabel();
+		label14 = new JLabel();
+		label15 = new JLabel();
 		labelAP = new JLabel();
 		labelAPValue = new JLabel();
 		radioButton2 = new JRadioButton();
+		label16 = new JLabel();
+		label17 = new JLabel();
+		label18 = new JLabel();
+		label19 = new JLabel();
+		label20 = new JLabel();
+		label21 = new JLabel();
+		label22 = new JLabel();
 		labelDynamite = new JLabel();
 		labelDynamiteValue = new JLabel();
 		radioButton3 = new JRadioButton();
+		label23 = new JLabel();
+		label24 = new JLabel();
+		label25 = new JLabel();
+		label26 = new JLabel();
+		label27 = new JLabel();
+		label28 = new JLabel();
+		label29 = new JLabel();
 		labelBeer = new JLabel();
 		labelBeerValue = new JLabel();
 		radioButton4 = new JRadioButton();
+		label30 = new JLabel();
+		label31 = new JLabel();
+		label32 = new JLabel();
+		label33 = new JLabel();
+		label34 = new JLabel();
+		label35 = new JLabel();
+		label36 = new JLabel();
 		labelMoney = new JLabel();
 		labelMoneyValue = new JLabel();
 		radioButton5 = new JRadioButton();
+		label37 = new JLabel();
+		label38 = new JLabel();
+		label39 = new JLabel();
+		label40 = new JLabel();
+		label41 = new JLabel();
+		label42 = new JLabel();
+		label43 = new JLabel();
 		labelFollower = new JLabel();
 		labelFollowerValue = new JLabel();
 		radioButton6 = new JRadioButton();
+		label44 = new JLabel();
+		label45 = new JLabel();
+		label46 = new JLabel();
+		label47 = new JLabel();
+		label48 = new JLabel();
+		label49 = new JLabel();
+		label50 = new JLabel();
 		radioButton7 = new JRadioButton();
+		label51 = new JLabel();
+		label52 = new JLabel();
+		label53 = new JLabel();
+		label54 = new JLabel();
+		label55 = new JLabel();
+		label56 = new JLabel();
+		label57 = new JLabel();
 		labelZeal = new JLabel();
 		labelZealValue = new JLabel();
 		labelProgress = new JLabel();
@@ -76,6 +133,13 @@ public class myGui extends JFrame {
 		contentPane.setLayout(new MigLayout(
 			"hidemode 3",
 			// columns
+			"[fill]" +
+			"[fill]" +
+			"[fill]" +
+			"[fill]" +
+			"[fill]" +
+			"[fill]" +
+			"[fill]" +
 			"[fill]" +
 			"[fill]" +
 			"[fill]" +
@@ -138,16 +202,49 @@ public class myGui extends JFrame {
 		labelNextAction.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		contentPane.add(labelNextAction, "cell 1 0");
 
+		//---- label1 ----
+		label1.setText("Kosten:");
+		label1.setFont(new Font("Tahoma", Font.PLAIN, 20));
+		contentPane.add(label1, "cell 3 0");
+
+		//---- label2 ----
+		label2.setIcon(new ImageIcon("C:\\Users\\Xen\\git\\gjws17_2\\assets\\icons\\kacka_icon.png"));
+		contentPane.add(label2, "cell 5 0");
+
+		//---- label3 ----
+		label3.setIcon(new ImageIcon("C:\\Users\\Xen\\git\\gjws17_2\\assets\\icons\\dynamit_icon.png"));
+		contentPane.add(label3, "cell 6 0");
+
+		//---- label4 ----
+		label4.setIcon(new ImageIcon("C:\\Users\\Xen\\git\\gjws17_2\\assets\\icons\\flasche_icon.png"));
+		contentPane.add(label4, "cell 7 0");
+
+		//---- label5 ----
+		label5.setIcon(new ImageIcon("C:\\Users\\Xen\\git\\gjws17_2\\assets\\icons\\kacka_icon.png"));
+		contentPane.add(label5, "cell 8 0");
+
+		//---- label6 ----
+		label6.setIcon(new ImageIcon("C:\\Users\\Xen\\git\\gjws17_2\\assets\\icons\\affe_icon.png"));
+		contentPane.add(label6, "cell 9 0");
+
+		//---- label7 ----
+		label7.setIcon(new ImageIcon("C:\\Users\\Xen\\git\\gjws17_2\\assets\\icons\\zeal_icon.png"));
+		contentPane.add(label7, "cell 10 0");
+
+		//---- label8 ----
+		label8.setIcon(new ImageIcon("C:\\Users\\Xen\\git\\gjws17_2\\assets\\icons\\bagger_icon.png"));
+		contentPane.add(label8, "cell 11 0");
+
 		//---- labelTurn ----
 		labelTurn.setText("Turn:");
 		labelTurn.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		labelTurn.setIcon(null);
-		contentPane.add(labelTurn, "cell 34 0");
+		contentPane.add(labelTurn, "cell 41 0");
 
 		//---- labelTurnValue ----
 		labelTurnValue.setText("0");
 		labelTurnValue.setFont(new Font("Tahoma", Font.PLAIN, 20));
-		contentPane.add(labelTurnValue, "cell 35 0");
+		contentPane.add(labelTurnValue, "cell 42 0");
 
 		//---- radioButton1 ----
 		radioButton1.setText("Party schmeissen");
@@ -155,15 +252,58 @@ public class myGui extends JFrame {
 		radioButton1.setToolTipText("Versuche die eifrigen Affen zu verkatern.");
 		contentPane.add(radioButton1, "cell 1 1");
 
+		//---- label9 ----
+		label9.setText("0");
+		label9.setFont(new Font("Tahoma", Font.PLAIN, 20));
+		label9.setHorizontalAlignment(SwingConstants.CENTER);
+		contentPane.add(label9, "cell 5 1");
+
+		//---- label10 ----
+		label10.setText("0");
+		label10.setFont(new Font("Tahoma", Font.PLAIN, 20));
+		label10.setHorizontalAlignment(SwingConstants.CENTER);
+		contentPane.add(label10, "cell 6 1");
+
+		//---- label11 ----
+		label11.setText("0");
+		label11.setFont(new Font("Tahoma", Font.PLAIN, 20));
+		label11.setHorizontalAlignment(SwingConstants.CENTER);
+		contentPane.add(label11, "cell 7 1");
+
+		//---- label12 ----
+		label12.setText("0");
+		label12.setFont(new Font("Tahoma", Font.PLAIN, 20));
+		label12.setHorizontalAlignment(SwingConstants.CENTER);
+		contentPane.add(label12, "cell 8 1");
+
+		//---- label13 ----
+		label13.setText("0");
+		label13.setFont(new Font("Tahoma", Font.PLAIN, 20));
+		label13.setHorizontalAlignment(SwingConstants.CENTER);
+		contentPane.add(label13, "cell 9 1");
+
+		//---- label14 ----
+		label14.setText("0");
+		label14.setFont(new Font("Tahoma", Font.PLAIN, 20));
+		label14.setHorizontalAlignment(SwingConstants.CENTER);
+		contentPane.add(label14, "cell 10 1");
+
+		//---- label15 ----
+		label15.setText("0");
+		label15.setFont(new Font("Tahoma", Font.PLAIN, 20));
+		label15.setHorizontalAlignment(SwingConstants.CENTER);
+		contentPane.add(label15, "cell 11 1");
+
 		//---- labelAP ----
 		labelAP.setText("Aktionspunkte:");
 		labelAP.setFont(new Font("Tahoma", Font.PLAIN, 20));
-		contentPane.add(labelAP, "cell 34 1");
+		labelAP.setIcon(new ImageIcon("C:\\Users\\Xen\\git\\gjws17_2\\assets\\icons\\kacka_icon.png"));
+		contentPane.add(labelAP, "cell 41 1");
 
 		//---- labelAPValue ----
 		labelAPValue.setText("0");
 		labelAPValue.setFont(new Font("Tahoma", Font.PLAIN, 20));
-		contentPane.add(labelAPValue, "cell 35 1");
+		contentPane.add(labelAPValue, "cell 42 1");
 
 		//---- radioButton2 ----
 		radioButton2.setText("Sabotiere Baustelle");
@@ -171,16 +311,44 @@ public class myGui extends JFrame {
 		radioButton2.setToolTipText("Sabotiere die Baustelle mit etwas Explosiven.");
 		contentPane.add(radioButton2, "cell 1 2");
 
+		//---- label16 ----
+		label16.setText("text");
+		contentPane.add(label16, "cell 5 2");
+
+		//---- label17 ----
+		label17.setText("text");
+		contentPane.add(label17, "cell 6 2");
+
+		//---- label18 ----
+		label18.setText("text");
+		contentPane.add(label18, "cell 7 2");
+
+		//---- label19 ----
+		label19.setText("text");
+		contentPane.add(label19, "cell 8 2");
+
+		//---- label20 ----
+		label20.setText("text");
+		contentPane.add(label20, "cell 9 2");
+
+		//---- label21 ----
+		label21.setText("text");
+		contentPane.add(label21, "cell 10 2");
+
+		//---- label22 ----
+		label22.setText("text");
+		contentPane.add(label22, "cell 11 2");
+
 		//---- labelDynamite ----
 		labelDynamite.setText("Dynamite:");
 		labelDynamite.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		labelDynamite.setIcon(new ImageIcon("C:\\Users\\Xen\\git\\gjws17_2\\assets\\icons\\dynamit_icon.png"));
-		contentPane.add(labelDynamite, "cell 34 2");
+		contentPane.add(labelDynamite, "cell 41 2");
 
 		//---- labelDynamiteValue ----
 		labelDynamiteValue.setText("0");
 		labelDynamiteValue.setFont(new Font("Tahoma", Font.PLAIN, 20));
-		contentPane.add(labelDynamiteValue, "cell 35 2");
+		contentPane.add(labelDynamiteValue, "cell 42 2");
 
 		//---- radioButton3 ----
 		radioButton3.setText("Bun Alert!");
@@ -188,16 +356,44 @@ public class myGui extends JFrame {
 		radioButton3.setToolTipText("Du lenkst alle Affen ab, in dem du flauschige Kaninchen auf der Baustelle losl\u00e4sst");
 		contentPane.add(radioButton3, "cell 1 3");
 
+		//---- label23 ----
+		label23.setText("text");
+		contentPane.add(label23, "cell 5 3");
+
+		//---- label24 ----
+		label24.setText("text");
+		contentPane.add(label24, "cell 6 3");
+
+		//---- label25 ----
+		label25.setText("text");
+		contentPane.add(label25, "cell 7 3");
+
+		//---- label26 ----
+		label26.setText("text");
+		contentPane.add(label26, "cell 8 3");
+
+		//---- label27 ----
+		label27.setText("text");
+		contentPane.add(label27, "cell 9 3");
+
+		//---- label28 ----
+		label28.setText("text");
+		contentPane.add(label28, "cell 10 3");
+
+		//---- label29 ----
+		label29.setText("text");
+		contentPane.add(label29, "cell 11 3");
+
 		//---- labelBeer ----
 		labelBeer.setText("Bier:");
 		labelBeer.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		labelBeer.setIcon(new ImageIcon("C:\\Users\\Xen\\git\\gjws17_2\\assets\\icons\\flasche_icon.png"));
-		contentPane.add(labelBeer, "cell 34 3");
+		contentPane.add(labelBeer, "cell 41 3");
 
 		//---- labelBeerValue ----
 		labelBeerValue.setText("0");
 		labelBeerValue.setFont(new Font("Tahoma", Font.PLAIN, 20));
-		contentPane.add(labelBeerValue, "cell 35 3");
+		contentPane.add(labelBeerValue, "cell 42 3");
 
 		//---- radioButton4 ----
 		radioButton4.setText("Lebensmittelvergiftung!");
@@ -205,15 +401,43 @@ public class myGui extends JFrame {
 		radioButton4.setToolTipText("Du verkaufst den hungrigen Bauarbeiter-Affen ranzige Pommes.");
 		contentPane.add(radioButton4, "cell 1 4");
 
+		//---- label30 ----
+		label30.setText("text");
+		contentPane.add(label30, "cell 5 4");
+
+		//---- label31 ----
+		label31.setText("text");
+		contentPane.add(label31, "cell 6 4");
+
+		//---- label32 ----
+		label32.setText("text");
+		contentPane.add(label32, "cell 7 4");
+
+		//---- label33 ----
+		label33.setText("text");
+		contentPane.add(label33, "cell 8 4");
+
+		//---- label34 ----
+		label34.setText("text");
+		contentPane.add(label34, "cell 9 4");
+
+		//---- label35 ----
+		label35.setText("text");
+		contentPane.add(label35, "cell 10 4");
+
+		//---- label36 ----
+		label36.setText("text");
+		contentPane.add(label36, "cell 11 4");
+
 		//---- labelMoney ----
 		labelMoney.setText("Geld:");
 		labelMoney.setFont(new Font("Tahoma", Font.PLAIN, 20));
-		contentPane.add(labelMoney, "cell 34 4");
+		contentPane.add(labelMoney, "cell 41 4");
 
 		//---- labelMoneyValue ----
 		labelMoneyValue.setText("0");
 		labelMoneyValue.setFont(new Font("Tahoma", Font.PLAIN, 20));
-		contentPane.add(labelMoneyValue, "cell 35 4");
+		contentPane.add(labelMoneyValue, "cell 42 4");
 
 		//---- radioButton5 ----
 		radioButton5.setText("Schnuersenkel-Chaos");
@@ -221,15 +445,44 @@ public class myGui extends JFrame {
 		radioButton5.setToolTipText("Du bindest die Schnuersenkel aller Bauarbeiter-Affen aneinander.");
 		contentPane.add(radioButton5, "cell 1 5");
 
+		//---- label37 ----
+		label37.setText("text");
+		contentPane.add(label37, "cell 5 5");
+
+		//---- label38 ----
+		label38.setText("text");
+		contentPane.add(label38, "cell 6 5");
+
+		//---- label39 ----
+		label39.setText("text");
+		contentPane.add(label39, "cell 7 5");
+
+		//---- label40 ----
+		label40.setText("text");
+		contentPane.add(label40, "cell 8 5");
+
+		//---- label41 ----
+		label41.setText("text");
+		contentPane.add(label41, "cell 9 5");
+
+		//---- label42 ----
+		label42.setText("text");
+		contentPane.add(label42, "cell 10 5");
+
+		//---- label43 ----
+		label43.setText("text");
+		contentPane.add(label43, "cell 11 5");
+
 		//---- labelFollower ----
 		labelFollower.setText("Follower:");
 		labelFollower.setFont(new Font("Tahoma", Font.PLAIN, 20));
-		contentPane.add(labelFollower, "cell 34 5");
+		labelFollower.setIcon(new ImageIcon("C:\\Users\\Xen\\git\\gjws17_2\\assets\\icons\\affe_icon.png"));
+		contentPane.add(labelFollower, "cell 41 5");
 
 		//---- labelFollowerValue ----
 		labelFollowerValue.setText("0");
 		labelFollowerValue.setFont(new Font("Tahoma", Font.PLAIN, 20));
-		contentPane.add(labelFollowerValue, "cell 35 5");
+		contentPane.add(labelFollowerValue, "cell 42 5");
 
 		//---- radioButton6 ----
 		radioButton6.setText("Bestechung");
@@ -237,32 +490,89 @@ public class myGui extends JFrame {
 		radioButton6.setToolTipText("Der Busfahrer faehrt auf dem Weg zur Tempel-Baustelle 'aus Versehen' einen Umweg.");
 		contentPane.add(radioButton6, "cell 1 6");
 
+		//---- label44 ----
+		label44.setText("text");
+		contentPane.add(label44, "cell 5 6");
+
+		//---- label45 ----
+		label45.setText("text");
+		contentPane.add(label45, "cell 6 6");
+
+		//---- label46 ----
+		label46.setText("text");
+		contentPane.add(label46, "cell 7 6");
+
+		//---- label47 ----
+		label47.setText("text");
+		contentPane.add(label47, "cell 8 6");
+
+		//---- label48 ----
+		label48.setText("text");
+		contentPane.add(label48, "cell 9 6");
+
+		//---- label49 ----
+		label49.setText("text");
+		contentPane.add(label49, "cell 10 6");
+
+		//---- label50 ----
+		label50.setText("text");
+		contentPane.add(label50, "cell 11 6");
+
 		//---- radioButton7 ----
 		radioButton7.setText("Dixis umschubsen");
 		radioButton7.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		radioButton7.setToolTipText("Das wird ein laaaanger Tag fuer alle Bauarbeiter-Affen. Und dieser Duft erst.");
 		contentPane.add(radioButton7, "cell 1 7");
 
+		//---- label51 ----
+		label51.setText("text");
+		contentPane.add(label51, "cell 5 7");
+
+		//---- label52 ----
+		label52.setText("text");
+		contentPane.add(label52, "cell 6 7");
+
+		//---- label53 ----
+		label53.setText("text");
+		contentPane.add(label53, "cell 7 7");
+
+		//---- label54 ----
+		label54.setText("text");
+		contentPane.add(label54, "cell 8 7");
+
+		//---- label55 ----
+		label55.setText("text");
+		contentPane.add(label55, "cell 9 7");
+
+		//---- label56 ----
+		label56.setText("text");
+		contentPane.add(label56, "cell 10 7");
+
+		//---- label57 ----
+		label57.setText("text");
+		contentPane.add(label57, "cell 11 7");
+
 		//---- labelZeal ----
 		labelZeal.setText("Zeal:");
 		labelZeal.setFont(new Font("Tahoma", Font.PLAIN, 20));
-		labelZeal.setIcon(new ImageIcon("C:\\Users\\Xen\\git\\gjws17_2\\assets\\icons\\kacka_icon.png"));
-		contentPane.add(labelZeal, "cell 34 9");
+		labelZeal.setIcon(new ImageIcon("C:\\Users\\Xen\\git\\gjws17_2\\assets\\icons\\zeal_icon.png"));
+		contentPane.add(labelZeal, "cell 41 9");
 
 		//---- labelZealValue ----
 		labelZealValue.setText("0");
 		labelZealValue.setFont(new Font("Tahoma", Font.PLAIN, 20));
-		contentPane.add(labelZealValue, "cell 35 9");
+		contentPane.add(labelZealValue, "cell 42 9");
 
 		//---- labelProgress ----
 		labelProgress.setText("Progress:");
 		labelProgress.setFont(new Font("Tahoma", Font.PLAIN, 20));
-		contentPane.add(labelProgress, "cell 34 10");
+		labelProgress.setIcon(new ImageIcon("C:\\Users\\Xen\\git\\gjws17_2\\assets\\icons\\bagger_icon.png"));
+		contentPane.add(labelProgress, "cell 41 10");
 
 		//---- labelProgressValue ----
 		labelProgressValue.setText("0");
 		labelProgressValue.setFont(new Font("Tahoma", Font.PLAIN, 20));
-		contentPane.add(labelProgressValue, "cell 35 10");
+		contentPane.add(labelProgressValue, "cell 42 10");
 
 		//---- btNextTurn ----
 		btNextTurn.setText("Next Turn");
@@ -273,7 +583,7 @@ public class myGui extends JFrame {
 				btNextTurnMouseClicked(e);
 			}
 		});
-		contentPane.add(btNextTurn, "cell 35 14 1 2");
+		contentPane.add(btNextTurn, "cell 42 14 1 2");
 		pack();
 		setLocationRelativeTo(getOwner());
 
@@ -292,25 +602,82 @@ public class myGui extends JFrame {
 	// JFormDesigner - Variables declaration - DO NOT MODIFY  //GEN-BEGIN:variables
 	// Generated using JFormDesigner Evaluation license - Bob Monkey
 	private JLabel labelNextAction;
+	private JLabel label1;
+	private JLabel label2;
+	private JLabel label3;
+	private JLabel label4;
+	private JLabel label5;
+	private JLabel label6;
+	private JLabel label7;
+	private JLabel label8;
 	private JLabel labelTurn;
 	private JLabel labelTurnValue;
 	private JRadioButton radioButton1;
+	private JLabel label9;
+	private JLabel label10;
+	private JLabel label11;
+	private JLabel label12;
+	private JLabel label13;
+	private JLabel label14;
+	private JLabel label15;
 	private JLabel labelAP;
 	private JLabel labelAPValue;
 	private JRadioButton radioButton2;
+	private JLabel label16;
+	private JLabel label17;
+	private JLabel label18;
+	private JLabel label19;
+	private JLabel label20;
+	private JLabel label21;
+	private JLabel label22;
 	private JLabel labelDynamite;
 	private JLabel labelDynamiteValue;
 	private JRadioButton radioButton3;
+	private JLabel label23;
+	private JLabel label24;
+	private JLabel label25;
+	private JLabel label26;
+	private JLabel label27;
+	private JLabel label28;
+	private JLabel label29;
 	private JLabel labelBeer;
 	private JLabel labelBeerValue;
 	private JRadioButton radioButton4;
+	private JLabel label30;
+	private JLabel label31;
+	private JLabel label32;
+	private JLabel label33;
+	private JLabel label34;
+	private JLabel label35;
+	private JLabel label36;
 	private JLabel labelMoney;
 	private JLabel labelMoneyValue;
 	private JRadioButton radioButton5;
+	private JLabel label37;
+	private JLabel label38;
+	private JLabel label39;
+	private JLabel label40;
+	private JLabel label41;
+	private JLabel label42;
+	private JLabel label43;
 	private JLabel labelFollower;
 	private JLabel labelFollowerValue;
 	private JRadioButton radioButton6;
+	private JLabel label44;
+	private JLabel label45;
+	private JLabel label46;
+	private JLabel label47;
+	private JLabel label48;
+	private JLabel label49;
+	private JLabel label50;
 	private JRadioButton radioButton7;
+	private JLabel label51;
+	private JLabel label52;
+	private JLabel label53;
+	private JLabel label54;
+	private JLabel label55;
+	private JLabel label56;
+	private JLabel label57;
 	private JLabel labelZeal;
 	private JLabel labelZealValue;
 	private JLabel labelProgress;
