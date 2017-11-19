@@ -1,4 +1,4 @@
-JFDML JFormDesigner: "6.0.2.0.116" Java: "1.8.0_91" encoding: "UTF-8"
+JFDML JFormDesigner: "6.0.2.0.116" Java: "1.8.0_151" encoding: "UTF-8"
 
 new FormModel {
 	contentType: "form/swing"
@@ -92,7 +92,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label9"
-				"text": "0"
+				"text": "1"
 				"font": &Font3 new java.awt.Font( "Tahoma", 0, 20 )
 				"horizontalAlignment": 0
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -100,7 +100,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label10"
-				"text": "0"
+				"text": " 0"
 				"font": #Font3
 				"horizontalAlignment": 0
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -108,7 +108,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label11"
-				"text": "0"
+				"text": "10"
 				"font": #Font3
 				"horizontalAlignment": 0
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -116,7 +116,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label12"
-				"text": "0"
+				"text": " 0"
 				"font": #Font3
 				"horizontalAlignment": 0
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -124,7 +124,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label13"
-				"text": "0"
+				"text": " 0"
 				"font": #Font3
 				"horizontalAlignment": 0
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -132,7 +132,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label14"
-				"text": "0"
+				"text": " 0"
 				"font": #Font3
 				"horizontalAlignment": 0
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -140,7 +140,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label15"
-				"text": "0"
+				"text": " 0"
 				"font": #Font3
 				"horizontalAlignment": 0
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -172,7 +172,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label16"
-				"text": "0"
+				"text": "2"
 				"horizontalAlignment": 0
 				"font": &Font4 new java.awt.Font( "Tahoma", 0, 20 )
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -180,7 +180,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label17"
-				"text": "0"
+				"text": " 1"
 				"horizontalAlignment": 0
 				"font": #Font4
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -188,7 +188,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label18"
-				"text": "0"
+				"text": " 0"
 				"horizontalAlignment": 0
 				"font": #Font4
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -196,7 +196,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label19"
-				"text": "0"
+				"text": " 0"
 				"horizontalAlignment": 0
 				"font": #Font4
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -204,7 +204,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label20"
-				"text": "0"
+				"text": " 0"
 				"horizontalAlignment": 0
 				"font": #Font4
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -212,7 +212,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label21"
-				"text": "0"
+				"text": " 0"
 				"horizontalAlignment": 0
 				"font": #Font4
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -220,7 +220,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label22"
-				"text": "0"
+				"text": " 0"
 				"horizontalAlignment": 0
 				"font": #Font4
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -252,7 +252,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label23"
-				"text": "0"
+				"text": "1"
 				"horizontalAlignment": 0
 				"font": #Font4
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -260,7 +260,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label24"
-				"text": "0"
+				"text": " 0"
 				"horizontalAlignment": 0
 				"font": #Font4
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -268,7 +268,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label25"
-				"text": "0"
+				"text": " 0"
 				"horizontalAlignment": 0
 				"font": #Font4
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -276,7 +276,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label26"
-				"text": "0"
+				"text": " 5"
 				"horizontalAlignment": 0
 				"font": #Font4
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -284,7 +284,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label27"
-				"text": "0"
+				"text": " 0"
 				"horizontalAlignment": 0
 				"font": #Font4
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -292,7 +292,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label28"
-				"text": "0"
+				"text": " 0"
 				"horizontalAlignment": 0
 				"font": #Font4
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -300,7 +300,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label29"
-				"text": "0"
+				"text": " 0"
 				"horizontalAlignment": 0
 				"font": #Font4
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -332,7 +332,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label30"
-				"text": "0"
+				"text": "5"
 				"horizontalAlignment": 0
 				"font": #Font4
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -340,7 +340,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label31"
-				"text": "0"
+				"text": " 0"
 				"horizontalAlignment": 0
 				"font": #Font4
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -348,7 +348,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label32"
-				"text": "0"
+				"text": " 1"
 				"horizontalAlignment": 0
 				"font": #Font4
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -356,7 +356,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label33"
-				"text": "0"
+				"text": " 0"
 				"horizontalAlignment": 0
 				"font": #Font4
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -364,7 +364,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label34"
-				"text": "0"
+				"text": " 0"
 				"horizontalAlignment": 0
 				"font": #Font4
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -372,7 +372,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label35"
-				"text": "0"
+				"text": " 0"
 				"horizontalAlignment": 0
 				"font": #Font4
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -380,7 +380,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label36"
-				"text": "0"
+				"text": " 0"
 				"horizontalAlignment": 0
 				"font": #Font4
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -412,7 +412,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label37"
-				"text": "0"
+				"text": "3"
 				"horizontalAlignment": 0
 				"font": &Font6 new java.awt.Font( "Tahoma", 0, 20 )
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -420,7 +420,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label38"
-				"text": "0"
+				"text": " 0"
 				"horizontalAlignment": 0
 				"font": #Font6
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -428,7 +428,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label39"
-				"text": "0"
+				"text": " 0"
 				"horizontalAlignment": 0
 				"font": #Font6
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -436,7 +436,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label40"
-				"text": "0"
+				"text": " 0"
 				"horizontalAlignment": 0
 				"font": #Font6
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -444,7 +444,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label41"
-				"text": "0"
+				"text": " 0"
 				"horizontalAlignment": 0
 				"font": #Font6
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -452,7 +452,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label42"
-				"text": "0"
+				"text": " 0"
 				"horizontalAlignment": 0
 				"font": #Font6
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -460,7 +460,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label43"
-				"text": "0"
+				"text": " 0"
 				"horizontalAlignment": 0
 				"font": #Font6
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -492,7 +492,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label44"
-				"text": "0"
+				"text": "1"
 				"horizontalAlignment": 0
 				"font": #Font6
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -500,7 +500,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label45"
-				"text": "0"
+				"text": " 0"
 				"horizontalAlignment": 0
 				"font": #Font6
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -508,7 +508,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label46"
-				"text": "0"
+				"text": " 1"
 				"horizontalAlignment": 0
 				"font": #Font6
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -516,7 +516,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label47"
-				"text": "0"
+				"text": "15"
 				"horizontalAlignment": 0
 				"font": #Font6
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -524,7 +524,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label48"
-				"text": "0"
+				"text": " 0"
 				"horizontalAlignment": 0
 				"font": #Font6
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -532,7 +532,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label49"
-				"text": "0"
+				"text": " 0"
 				"horizontalAlignment": 0
 				"font": #Font6
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -540,7 +540,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label50"
-				"text": "0"
+				"text": " 0"
 				"horizontalAlignment": 0
 				"font": #Font6
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -557,7 +557,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label51"
-				"text": "0"
+				"text": "10"
 				"horizontalAlignment": 0
 				"font": #Font6
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -565,7 +565,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label52"
-				"text": "0"
+				"text": " 0"
 				"horizontalAlignment": 0
 				"font": #Font6
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -573,7 +573,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label53"
-				"text": "0"
+				"text": " 0"
 				"horizontalAlignment": 0
 				"font": #Font6
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -581,7 +581,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label54"
-				"text": "0"
+				"text": " 0"
 				"horizontalAlignment": 0
 				"font": #Font6
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -589,7 +589,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label55"
-				"text": "0"
+				"text": " 0"
 				"horizontalAlignment": 0
 				"font": #Font6
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -597,7 +597,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label56"
-				"text": "0"
+				"text": " 0"
 				"horizontalAlignment": 0
 				"font": #Font6
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
@@ -605,7 +605,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label57"
-				"text": "0"
+				"text": " 0"
 				"horizontalAlignment": 0
 				"font": #Font6
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
