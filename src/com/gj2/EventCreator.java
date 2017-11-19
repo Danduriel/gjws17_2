@@ -12,6 +12,10 @@ public class EventCreator {
 		neutralEvents.add(new MyEvent("test neutral", // Event Name
 				"test description neutral", // Event description
 				0,0,0,0,0,0,0)); 		// AP Kosten,Dynamite, Beer, Money, Follower, Zeal, Progress 
+		
+		neutralEvents.add(new MyEvent("Nuescht ist passiert", // Event Name
+				"Einfach nichts passiert. Total langweilig. Nichtmal ein Tatort kommt im Fernsehen. Laaaaangweilig!", // Event description
+				0,0,0,0,0,0,0)); 		// AP Kosten,Dynamite, Beer, Money, Follower, Zeal, Progress 
 
 
 		//Add good Events
@@ -22,17 +26,17 @@ public class EventCreator {
 		
 		//Add good Events
 		goodEvents.add(new MyEvent("Dynamit LKW hat Last verloren", // Event Name
-						"Ein vorbeifahrender LKW hat Dynamit verloren, ja im Jungel fahren LKWs.", // Event description
-						+4,0,0,0,0,0,0)); 		// AP Kosten,Dynamite, Beer, Money, Follower, Zeal, Progress 
+						"Ein vorbeifahrender LKW hat Dynamit verloren, ja im Jungel fahren LKWs.Un der Fahrer hat sein Bier nicht ausgetrunken. ", // Event description
+						0,4,1,0,0,0,0)); 		// AP Kosten,Dynamite, Beer, Money, Follower, Zeal, Progress 
 		
 		//Add good Events
 		goodEvents.add(new MyEvent("Zeppelinabsturz", // Event Name
-						"Die Hindenburg 3.1 ist nahe deines Lagers abgestürzt und hat Güter verloren.", // Event description
-						0,+5,+6,0,0,0,0)); 		// AP Kosten,Dynamite, Beer, Money, Follower, Zeal, Progress 
+						"Die Hindenburg 3.1 ist nahe deines Lagers abgestuerzt und hat Gueter verloren.", // Event description
+						0,4,6,15,0,0,0)); 		// AP Kosten,Dynamite, Beer, Money, Follower, Zeal, Progress 
 		
 		//Add good Events
 		goodEvents.add(new MyEvent("Flussschwemme", // Event Name
-								"Der naheliegende Fluss ist überschwemmt und hat Bierfässer mitgetragen.", // Event description
+								"Der naheliegende Fluss ist ueberschwemmt und hat Bierfaesser mitgetragen.", // Event description
 								0,+4,0,0,0,0,0)); 		// AP Kosten,Dynamite, Beer, Money, Follower, Zeal, Progress 
 		
 		//Add good Events
@@ -47,8 +51,8 @@ public class EventCreator {
 						+2,0,0,0,0,0,0)); 		// AP Kosten,Dynamite, Beer, Money, Follower, Zeal, Progress 
 		
 		//Add good Events
-		goodEvents.add(new MyEvent("Gnädige Delphinsuperintelligenz", // Event Name
-						"Die eigentliche Superintelligenz auf der Erde, aka. Delphine, unterstützen dich.", // Event description
+		goodEvents.add(new MyEvent("Gnï¿½dige Delphinsuperintelligenz", // Event Name
+						"Die eigentliche Superintelligenz auf der Erde, aka. Delphine, unterstuetzen dich.", // Event description
 						+5,0,0,0,0,0,0)); 		// AP Kosten,Dynamite, Beer, Money, Follower, Zeal, Progress 
 		
 		//Add good Events
@@ -62,13 +66,13 @@ public class EventCreator {
 						0,+10,0,0,0,0,0)); 		// AP Kosten,Dynamite, Beer, Money, Follower, Zeal, Progress 
 		
 		//Add good Events
-		goodEvents.add(new MyEvent("Stärkerbier", // Event Name
-						"Dir fällt auf, dass du aus Versehen Starkbier besorgt hast, das ist natürlich viel viel effektiver!", // Event description
+		goodEvents.add(new MyEvent("Staerkerbier", // Event Name
+						"Dir fï¿½llt auf, dass du aus Versehen Starkbier besorgt hast, das ist natuerlich viel viel effektiver!", // Event description
 						0,+4,0,0,0,0,0)); 		// AP Kosten,Dynamite, Beer, Money, Follower, Zeal, Progress 
 		
 		//Add good Events
 		goodEvents.add(new MyEvent("Projekt Bayer", // Event Name
-						"Bayer testet seine neue Produktlinie:>>Instadrunk™ - Bier mit Aspirinflavour<< an dir. ", // Event description
+						"Bayer testet seine neue Produktlinie:>>Instadrunk - Bier mit Aspirinflavour<< an dir. ", // Event description
 						0,+6,0,0,0,0,0)); 		// AP Kosten,Dynamite, Beer, Money, Follower, Zeal, Progress 
 		//Add good Events
 		goodEvents.add(new MyEvent("Duffman fills your need for beer", // Event Name
@@ -98,8 +102,8 @@ public class EventCreator {
 							0,0,0,0,0,0,0)); 		// AP Kosten,Dynamite, Beer, Money, Follower, Zeal, Progress 
 		
 		//Add bad Events
-		badEvents.add(new MyEvent("LKW Unfall, Pfändung!", // Event Name
-							"Die letzte Lieferung deines Dynamit-Dealers ist verunglückt. Er kommt bei dir pfänden.", // Event description
+		badEvents.add(new MyEvent("LKW Unfall, Pfï¿½ndung!", // Event Name
+							"Die letzte Lieferung deines Dynamit-Dealers ist verunglueckt. Er kommt bei dir pfaenden.", // Event description
 							-5,0,0,0,0,0,0)); 		// AP Kosten,Dynamite, Beer, Money, Follower, Zeal, Progress 
 		//Add bad Events
 		badEvents.add(new MyEvent("Drug Enforcement", // Event Name
@@ -107,23 +111,23 @@ public class EventCreator {
 									0,-5,0,0,0,0,0)); 		// AP Kosten,Dynamite, Beer, Money, Follower, Zeal, Progress 
 		//Add bad Events
 		badEvents.add(new MyEvent("Flashsale", // Event Name
-							"In deinem lieblings Sprengstoffoutlet war ein Flashsale und du musst etwas zurückbringen", // Event description
+							"In deinem lieblings Sprengstoffoutlet war ein Flashsale und du musst etwas zurueckbringen", // Event description
 							-3,0,0,0,0,0,0)); 		// AP Kosten,Dynamite, Beer, Money, Follower, Zeal, Progress 
 		//Add bad Events
 		badEvents.add(new MyEvent("Hitzewelle", // Event Name
-									"Wegen der Hitzewelle sind einige Lunten brüchig geworden", // Event description
+									"Wegen der Hitzewelle sind einige Lunten bruechig geworden", // Event description
 									-8,0,0,0,0,0,0)); 		// AP Kosten,Dynamite, Beer, Money, Follower, Zeal, Progress 
 		//Add bad Events
 		badEvents.add(new MyEvent("Tropensturm", // Event Name
 							"Wegen eines Tropensturms ist dein Lager voll gelaufen und das Dynamit ist nass", // Event description
 							-7,0,0,0,0,0,0)); 		// AP Kosten,Dynamite, Beer, Money, Follower, Zeal, Progress 
 		//Add bad Events
-		badEvents.add(new MyEvent("Käferbefall", // Event Name
+		badEvents.add(new MyEvent("Kï¿½ferbefall", // Event Name
 									"Radioaktive Insekten haben sich am Dynamit satt gegessen", // Event description
 									-5,0,0,0,0,0,0)); 		// AP Kosten,Dynamite, Beer, Money, Follower, Zeal, Progress 
 		//Add bad Events
 		badEvents.add(new MyEvent("Hochwasser", // Event Name
-							"Durch den Monsunregen sind Bierfässer weg geschwemmt worden", // Event description
+							"Durch den Monsunregen sind Bierfaesser weg geschwemmt worden", // Event description
 							0,-6,0,0,0,0,0)); 		// AP Kosten,Dynamite, Beer, Money, Follower, Zeal, Progress 
 		//Add bad Events
 		badEvents.add(new MyEvent("Gators", // Event Name
@@ -131,14 +135,14 @@ public class EventCreator {
 									0,-6,0,0,0,0,0)); 		// AP Kosten,Dynamite, Beer, Money, Follower, Zeal, Progress 
 		//Add bad Events
 		badEvents.add(new MyEvent("Alkoholfreies Bier", // Event Name
-							"Dir fällt auf, dass die letzte Lieferung alkoholfrei war, das bringt wohl nichts.", // Event description
+							"Dir faellt auf, dass die letzte Lieferung alkoholfrei war, das bringt wohl nichts.", // Event description
 							0,-4,0,0,0,0,0)); 		// AP Kosten,Dynamite, Beer, Money, Follower, Zeal, Progress 
 		//Add bad Events
 		badEvents.add(new MyEvent("DonkeyKong", // Event Name
-									"DonkeyKong wirft mit deinen Bierfässern", // Event description
+									"DonkeyKong wirft mit deinen Bierfaessern", // Event description
 									0,-5,0,0,0,0,0)); 		// AP Kosten,Dynamite, Beer, Money, Follower, Zeal, Progress 
 		//Add bad Events
-		badEvents.add(new MyEvent("Scherben bringen Glück, right?", // Event Name
+		badEvents.add(new MyEvent("Scherben bringen Glaeck, right?", // Event Name
 							"Einige Flaschen sind kaputt gegangen", // Event description
 							0,-2,0,0,0,0,0)); 		// AP Kosten,Dynamite, Beer, Money, Follower, Zeal, Progress 
 		//Add bad Events
@@ -148,8 +152,10 @@ public class EventCreator {
 		//Add bad Events
 		badEvents.add(new MyEvent("Feiertag", // Event Name
 							"Die Zealots hatten einen Feiertag und waren besonders produktiv", // Event description
-							0,0,0,0,0,+200,0)); 		// AP Kosten,Dynamite, Beer, Money, Follower, Zeal, Progress 
-
+							0,0,0,0,0,0,+200)); 		// AP Kosten,Dynamite, Beer, Money, Follower, Zeal, Progress 
+							/*
+							 * 					
+							 */
 	}
 	
 	// arrayID 0 = neutral, 1 = good, 2 = bad

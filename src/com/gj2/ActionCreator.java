@@ -13,7 +13,7 @@ public class ActionCreator {
 	}
 	
 	public static MyAction clickBunButton() {
-		MyAction tempAP = new MyAction("Bun Alert!","Du lenkst alle Affen ab, in dem du flauschige Kaninchen auf der Baustelle loslässt.",0,0,0,0,0,0,0);
+		MyAction tempAP = new MyAction("Bun Alert!","Du lenkst alle Affen ab, in dem du flauschige Kaninchen auf der Baustelle loslï¿½sst.",0,0,0,0,0,0,0);
 		return tempAP;
 	}
 	
@@ -23,17 +23,17 @@ public class ActionCreator {
 	}
 	
 	public static MyAction clickSchoesButton() {
-		MyAction tempAP = new MyAction("Schnürsenkel-Chaos","Du bindest die Schnürsenkel aller Bauarbeiter-Affen aneinander.",0,0,0,0,0,0,0);
+		MyAction tempAP = new MyAction("Schnuersenkel-Chaos","Du bindest die Schnuersenkel aller Bauarbeiter-Affen aneinander.",0,0,0,0,0,0,0);
 		return tempAP;
 	}
 	
 	public static MyAction clickBusButton() {
-		MyAction tempAP = new MyAction("Bestechung","Der Busfahrer fährt auf dem Weg zur Tempel-Baustelle 'aus Versehen' einen Umweg.",0,0,0,0,0,0,0);
+		MyAction tempAP = new MyAction("Bestechung","Der Busfahrer faehrt auf dem Weg zur Tempel-Baustelle 'aus Versehen' einen Umweg.",0,0,0,0,0,0,0);
 		return tempAP;
 	}
 	
 	public static MyAction clickDixiButton() {
-		MyAction tempAP = new MyAction("Dixis umschubsen","Das wird ein laaaanger Tag für alle Bauarbeiter-Affen. Und dieser Duft erst.",0,0,0,0,0,0,0);
+		MyAction tempAP = new MyAction("Dixis umschubsen","Das wird ein laaaanger Tag fuer alle Bauarbeiter-Affen. Und dieser Duft erst.",0,0,0,0,0,0,0);
 		return tempAP;
 	}
 	
