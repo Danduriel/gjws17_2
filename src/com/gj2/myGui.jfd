@@ -44,7 +44,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label5"
-				"icon": new com.jformdesigner.model.SwingIcon( 1, "C:\\Users\\Xen\\git\\gjws17_2\\assets\\icons\\kacka_icon.png" )
+				"icon": new com.jformdesigner.model.SwingIcon( 1, "C:\\Users\\Xen\\git\\gjws17_2\\assets\\icons\\geld_icon.png" )
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
 				"value": "cell 8 0"
 			} )
@@ -390,6 +390,7 @@ new FormModel {
 				name: "labelMoney"
 				"text": "Geld:"
 				"font": #Font5
+				"icon": new com.jformdesigner.model.SwingIcon( 1, "C:\\Users\\Xen\\git\\gjws17_2\\assets\\icons\\geld_icon.png" )
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
 				"value": "cell 41 4"
 			} )

@@ -220,7 +220,7 @@ public class myGui extends JFrame {
 		contentPane.add(label4, "cell 7 0");
 
 		//---- label5 ----
-		label5.setIcon(new ImageIcon("C:\\Users\\Xen\\git\\gjws17_2\\assets\\icons\\kacka_icon.png"));
+		label5.setIcon(new ImageIcon("C:\\Users\\Xen\\git\\gjws17_2\\assets\\icons\\geld_icon.png"));
 		contentPane.add(label5, "cell 8 0");
 
 		//---- label6 ----
@@ -474,6 +474,7 @@ public class myGui extends JFrame {
 		//---- labelMoney ----
 		labelMoney.setText("Geld:");
 		labelMoney.setFont(new Font("Tahoma", Font.PLAIN, 20));
+		labelMoney.setIcon(new ImageIcon("C:\\Users\\Xen\\git\\gjws17_2\\assets\\icons\\geld_icon.png"));
 		contentPane.add(labelMoney, "cell 41 4");
 
 		//---- labelMoneyValue ----
