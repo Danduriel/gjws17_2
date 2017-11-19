@@ -35,6 +35,19 @@ public class Player {
 		this.beer += beer;
 		this.money += money;
 		this.follower += follower;
+		
+		if(this.ap < 0)
+			this.ap = 0;
+		if(this.dynamite < 0)
+			this.dynamite = 0;
+		if(this.beer < 0)
+			this.beer = 0;
+		if(this.money < 0)
+			this.money = 0;
+		if(this.follower < 0)
+			this.follower = 0;
+		
+			
 	}
 }
 

@@ -42,6 +42,10 @@ public class Gamesim {
 		//Event Player / Temple update
 		player.update(tempEvent.ap,tempEvent.dynamite, tempEvent.beer, tempEvent.money,tempEvent.follower);
 		temple.update(tempEvent.zeal, tempEvent.progress);
+		
+		
+		// Make sure there are no Values below 0 
+		
 		turn++;
 	}
 	
