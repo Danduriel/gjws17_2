@@ -7,7 +7,7 @@ import javax.swing.*;
 public class Main {
 	
 	public static Gamesim gamesim = new Gamesim(0);
-
+/*
 	public static void createAndShowUI() {
 		MainWindow mainWindow = new MainWindow(gamesim);
 		
@@ -20,10 +20,10 @@ public class Main {
 		frame.setLocationRelativeTo(null);
 		frame.setVisible(true);
 	}
-
+*/
    // to run Swing in a thread-safe way
    public static void main(String[] args) {
-	    new testGui(gamesim);
+	    //new testGui(gamesim);
 	    
         javax.swing.SwingUtilities.invokeLater(new Runnable() {
             public void run() {
