@@ -25,7 +25,7 @@ public class ItemList {
 							0,0,0,0,0,0,0)); // AP Kosten,Dynamite, Beer, Money, Follower, Zeal, Progress
 				
 		//Schnaps
-		itemList.add(new Item("Schnaps",	//Name
+		itemList.add(new Item("Rum",	//Name
 							"Wenn selbst das Banana Beer nicht mehr ausreicht.", //Description
 							"", //Filename
 							0,0,0,0,0,0,0)); // AP Kosten,Dynamite, Beer, Money, Follower, Zeal, Progress
