@@ -57,6 +57,9 @@ public class myGui extends JFrame {
 		labelMoneyValue.setText(Integer.toString(gamesim.player.money));
 		labelFollowerValue.setText(Integer.toString(gamesim.player.follower));
 		
+		labelZealValue.setText(Double.toString(gamesim.temple.zeal));
+		labelProgressValue.setText(Double.toString(gamesim.temple.progress));
+		
 		
 		radioButton1.setSelected(false);
 		radioButton2.setSelected(false);
